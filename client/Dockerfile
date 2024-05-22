@@ -1,11 +1,11 @@
-FROM node:14.15-alpine as node
+FROM node:20.13-alpine3.18 as node
 
 RUN mkdir -p /src
 WORKDIR /src
 
 RUN apk update && \
     apk upgrade && \
-    apk add curl python make g++
+    apk add curl python3 make g++
 RUN yarn install
 
 ENV TZ Asia/Tokyo
