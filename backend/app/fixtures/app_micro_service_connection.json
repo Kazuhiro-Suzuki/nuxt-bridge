@@ -1,0 +1,26 @@
+[
+    {
+       "model": "app.microserviceconnection",
+       "pk": 1,
+       "fields": {
+          "region": 3,
+          "booklet_url": "https://dz64pvsptfnmx.cloudfront.net",
+          "survey_url": "https://d1hqezbhze6bp2.cloudfront.net/683a2b39-1c97-4d7a-bce8-1dd1f36c2f79",
+          "congestion_url": "https://d220qouei9rgxz.cloudfront.net",
+          "barrier_free_map_url": "https://d2udqaf2midy0x.cloudfront.net",
+          "created_at": "2023-09-05T16:00:09.438"
+       }
+    },
+    {
+       "model": "app.microserviceconnection",
+       "pk": 2,
+       "fields": {
+          "region": 4,
+          "booklet_url": "https://dd8r5qkegezrk.cloudfront.net",
+          "survey_url": null,
+          "congestion_url": null,
+          "barrier_free_map_url": null,
+          "created_at": "2023-09-05T17:38:07.572"
+       }
+    }
+    ]

@@ -1,0 +1,53 @@
+[
+    {
+       "model": "app.reservationconnection",
+       "pk": "8d760610-9bfc-47b0-a3d1-ef6149ba394c",
+       "fields": {
+          "region": 3,
+          "is_active": true,
+          "city_ca_endpoint": "chigasaki-lg-pwd-stg.city-ca.jp/api/1.1",
+          "city_ca_apikey": "sCTtfqbjX2zMy_M8i9ccjIz_Um_5XNBaXiERCoi1",
+          "title": "オンライン相談",
+          "messages": [
+             "オンライン相談予約を利用する場合は、会員登録が必要です。",
+             "オンライン相談の相談時間は、３０分です。障がい福祉課での手続き等に関する相談のみお受けします。申請等のお手続きはお受けできません。",
+             "アプリで予約をキャンセルできるのは、予約受付期間中（７日前の１５時まで）です。それ以降は障がい福祉課へ直接ご連絡ください。",
+             "開始時刻から１０分を経過してもｚｏｏｍへの入室が確認できなかった場合、オンライン相談を中止します。再予約については、ご自身にてお願いします。",
+             "その他、ご利用条件や利用に関する不明点がある場合、障がい福祉課へ直接ご連絡ください。"
+          ],
+          "created_at": "2023-02-17T21:02:20.119"
+       }
+    },
+    {
+       "model": "app.reservationconnection",
+       "pk": "bf18106f-c14c-4404-ae24-ec8957a4d732",
+       "fields": {
+          "region": 1,
+          "is_active": true,
+          "city_ca_endpoint": "lg-pwd-dev.city-ca.jp/api/1.1",
+          "city_ca_apikey": "g03m0mvmuI30kIAM_sr4g-ENPBLJ4J2PhZKB0dNJ",
+          "title": "短期入所施設 予約",
+          "messages": [
+             "初めて施設を利用する場合は、各施設で事前に利用契約が必要です。利用を希望する施設へ直接ご連絡ください。",
+             "短期入所施設の予約を行う場合は、会員登録が必要です。",
+             "施設によって利用要件が異なりますので、各施設の備考欄をご確認ください。",
+             "アプリで予約をキャンセルできるのは、予約受付期間中です。それ以降は施設へ直接ご連絡ください。",
+             "その他、ご利用条件や利用に関する不明点がある場合、施設へ直接ご連絡ください。"
+          ],
+          "created_at": "2023-02-17T21:01:36.186"
+       }
+    },
+    {
+       "model": "app.reservationconnection",
+       "pk": "fa971f76-6a2a-493f-bcb2-5c4135b37415",
+       "fields": {
+          "region": 4,
+          "is_active": false,
+          "city_ca_endpoint": null,
+          "city_ca_apikey": null,
+          "title": null,
+          "messages": [],
+          "created_at": "2023-06-21T15:02:50.497"
+       }
+    }
+    ]

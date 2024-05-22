@@ -1,0 +1,55 @@
+variable "env" {}
+variable "name" {}
+
+variable "ecs_task_execution_role_name" {}
+variable "ecs_task_role_name" {}
+
+variable "city_ca_endpoint" {}
+variable "city_ca_apikey" {}
+variable "fcs_endpoint" {}
+variable "fcs_apikey" {}
+variable "mirairo_connect_api_base_url" {}
+variable "push_notification_arn" {}
+variable "sns_arn" {}
+
+variable "api_ecr_endpoint" {}
+
+variable "command" {}
+variable "debug" {}
+variable "secret_key" {}
+variable "aws_region_name" {}
+variable "aws_bucket_name" {}
+variable "email_sender" {}
+variable "email_confirmation_ttl_in_days" {}
+variable "aws_ses_configuration_set_name" {}
+variable "tmp_dir" {}
+variable "base_url" {}
+variable "backend_url" {}
+variable "region" {}
+variable "database_url" {}
+variable "db_address" {}
+variable "db_name" {}
+variable "db_user" {}
+variable "db_password" {}
+variable "db_port" {}
+variable "ecs_platform_version" {}
+variable "ecs_task_number" {}
+variable "target_group" {}
+//variable "subnet_a" {}
+//variable "subnet_c" {}
+variable "private_subnets" {}
+variable "security_group" {}
+variable "min_capacity" {}
+variable "max_capacity" {}
+variable "api_container_cpu" {}
+variable "api_container_memory" {}
+variable "retention_in_days" {}
+variable "default_file_storage" {}
+variable "aws_storage_bucket_name" {}
+variable "site_domain" {}
+variable "site_sub_domain" {}
+variable "city_ca_disable" {}
+variable "app_is_maintenance" {}
+variable "htp_html_url" {}
+variable "htp_api_url" {}
+variable "notification_event_schedule" {}

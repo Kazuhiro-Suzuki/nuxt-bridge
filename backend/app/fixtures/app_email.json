@@ -1,0 +1,35 @@
+[
+{
+   "model": "app.email",
+   "pk": 1,
+   "fields": {
+      "region": 1,
+      "notification_body": "みなと障害者支援アプリです。\r\n\r\n新しいお知らせを掲載しました。\r\nお時間がある際に、ぜひご覧ください。\r\n\r\n\r\n※本メールはシステムより自動送信しております。\r\n送信専用のため、このメールにご質問などをご返信いただいてもお答えすることは出来ません。\r\n\r\n※本システムに関するお問い合わせ先\r\n港区 障害者福祉課 障害者福祉係\r\n電話番号: 03-3578-2383\r\n\r\n※配信停止もしくは退会処理を希望する方はこちら\r\nhttps://dev.lg-pwd.jp/account/profile?citycode=131032\r\n\r\n※配信元\r\nみなと障害者支援アプリ\r\nhttps://dev.lg-pwd.jp/home?citycode=131032",
+      "inquiry_body": "",
+      "signup_body": "",
+      "reset_password_body": ""
+   }
+},
+{
+   "model": "app.email",
+   "pk": 2,
+   "fields": {
+      "region": 3,
+      "notification_body": "ちがさき障がい者支援アプリです。新しいお知らせを掲載しました。\r\nお時間があるときに、ぜひご覧ください。\r\n\r\n※本メールはシステムより自動送信しております。\r\n送信専用のため、このメールにご質問などをご返信いただいてもお答えすることは出来ません。\r\n\r\n※配信停止もしくは退会処理を希望する方はこちら\r\nhttps://dev.lg-pwd.jp/account/profile?citycode=142077\r\n（ログイン後、プロフィール画面にて処理をお願いいたします。）\r\n\r\n・お問い合わせ先\r\n茅ヶ崎市障がい福祉課\r\nhttps://www.city.chigasaki.kanagawa.jp/cgi-bin/contacts/t0600400\r\n\r\n※配信元\r\nちがさき障がい者支援アプリ\r\nhttps://dev.lg-pwd.jp/home?citycode=142077",
+      "inquiry_body": "",
+      "signup_body": "",
+      "reset_password_body": ""
+   }
+},
+{
+   "model": "app.email",
+   "pk": 3,
+   "fields": {
+      "region": 4,
+      "notification_body": "えどがわ障害者支援アプリMIRAIKU -ミライク- です。\r\n\r\n新しいお知らせ【notification_subject】を掲載しましたので、ぜひご覧ください。\r\n\r\n※このメールはシステムより自動送信しております。\r\n※送信専用のため、このメールにご質問などをご返信いただいてもお答えすることはできません。\r\n\r\n※配信停止もしくは退会処理を希望する方はこちら\r\nhttps://dev.lg-pwd.jp/account?citycode=131237\r\n\r\n※配信元\r\nえどがわ障害者支援アプリMIRAIKU -ミライク-\r\nhttps://dev.lg-pwd.jp/home?citycode=131237\r\n\r\n※本システムに関するお問い合わせ先\r\n江戸川区福祉部障害者福祉課庶務係\r\nTEL 03-5662-0054　FAX 03-3656-5874",
+      "inquiry_body": "",
+      "signup_body": "",
+      "reset_password_body": ""
+   }
+}
+]

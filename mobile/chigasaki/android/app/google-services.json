@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "876987853030",
+    "project_id": "lg-pwd-app-chigasaki",
+    "storage_bucket": "lg-pwd-app-chigasaki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876987853030:android:847951a210ac0ec7cf3327",
+        "android_client_info": {
+          "package_name": "com.lg_pwd.chigasaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876987853030-002ormue57e7lvr6507p9c3f0jlb042i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0Lh3MotD6lIaRcd3Xwk4uLh5wx3lY3gM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876987853030-002ormue57e7lvr6507p9c3f0jlb042i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "876987853030-fj5h8qjqata7ikhv1j52r6dpb9d6rkub.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.lg-pwd.chigasaki"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

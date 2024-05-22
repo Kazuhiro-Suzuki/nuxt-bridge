@@ -1,0 +1,12 @@
+[
+    {
+       "model": "app.plusfocusconnection",
+       "pk": 1,
+       "fields": {
+          "region": 4,
+          "plus_focus_endpoint": "https://api-stg.plus-focus.jp",
+          "plus_focus_apikey": "yTj4ZQr14wvg5FGJXsRNLQlcfLohYoBITzG1j1xr",
+          "created_at": "2023-08-14T13:32:53.019"
+       }
+    }
+    ]

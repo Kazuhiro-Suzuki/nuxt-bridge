@@ -1,0 +1,83 @@
+[
+{
+   "model": "app.faqcategory",
+   "pk": 1,
+   "fields": {
+      "name": "身体障害者手帳",
+      "created_at": "2023-01-12T16:37:41.820",
+      "updated_at": "2023-01-12T16:37:41.820"
+   }
+},
+{
+   "model": "app.faqcategory",
+   "pk": 2,
+   "fields": {
+      "name": "療育手帳",
+      "created_at": "2023-01-12T16:37:50.815",
+      "updated_at": "2023-01-12T16:37:53.753"
+   }
+},
+{
+   "model": "app.faqcategory",
+   "pk": 3,
+   "fields": {
+      "name": "精神障害者保健福祉手帳",
+      "created_at": "2023-01-12T16:38:22.912",
+      "updated_at": "2023-01-12T16:38:22.912"
+   }
+},
+{
+   "model": "app.faqcategory",
+   "pk": 4,
+   "fields": {
+      "name": "その他の手帳",
+      "created_at": "2023-01-12T16:38:39.020",
+      "updated_at": "2023-01-12T17:28:31.871"
+   }
+},
+{
+   "model": "app.faqcategory",
+   "pk": 5,
+   "fields": {
+      "name": "自立支援医療（精神通院）",
+      "created_at": "2023-01-12T16:38:50.133",
+      "updated_at": "2023-01-12T16:38:50.133"
+   }
+},
+{
+   "model": "app.faqcategory",
+   "pk": 6,
+   "fields": {
+      "name": "障害福祉サービス利用について",
+      "created_at": "2023-01-12T16:39:06.975",
+      "updated_at": "2023-01-12T16:39:06.975"
+   }
+},
+{
+   "model": "app.faqcategory",
+   "pk": 7,
+   "fields": {
+      "name": "事業所",
+      "created_at": "2023-01-12T16:39:21.279",
+      "updated_at": "2023-01-12T16:39:21.279"
+   }
+},
+{
+   "model": "app.faqcategory",
+   "pk": 8,
+   "fields": {
+      "name": "アプリについて",
+      "created_at": "2023-01-12T16:39:34.015",
+      "updated_at": "2023-01-12T16:39:34.015"
+   }
+},
+{
+   "model": "app.faqcategory",
+   "pk": 9,
+   "fields": {
+      "name": "その他",
+      "created_at": "2023-01-12T16:42:08.979",
+      "updated_at": "2023-01-12T16:42:08.979"
+   }
+}
+]

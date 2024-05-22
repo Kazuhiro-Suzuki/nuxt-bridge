@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+djangorestframework = "*"
+django-environ = "*"
+psycopg2-binary = "*"
+pytest = "*"
+gunicorn = "*"
+pyjwt = "*"
+requests = "*"
+django-rest-swagger = "*"
+boto3 = "*"
+botocore = "*"
+python-dateutil = "*"
+django-storages = "*"
+django-postgres-extra = "*"
+cryptography = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+coverage = "*"
+flake8 = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"

@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  client:
+    build:
+      context: client
+      dockerfile: Dockerfile
+    image: lg-pwd_client
+    container_name: lg-pwd_client
+    command: yarn run dev
+    restart: always
+    tty: true
+    volumes:
+      - ./client:/src
+    ports:
+      - 3000:3000
+    networks:
+      - container-link
+
+  backend:
+    build:
+      context: backend
+      dockerfile: Dockerfile
+    image: lg-pwd_backend
+    container_name: lg-pwd_backend
+    environment:
+      DJANGO_SETTINGS_MODULE: config.settings_local
+    command: ./manage.py runserver 0.0.0.0:8000
+    restart: always
+    tty: true
+    volumes:
+      - ./backend:/src
+    ports:
+      - 8000:8000
+    networks:
+      - container-link
+
+  # postgres:
+  #   image: postgres:12-bullseye
+  #   container_name: lg-pwd_postgres
+  #   environment:
+  #     POSTGRES_USER: lgpwd
+  #     POSTGRES_DB: lgpwd
+  #     POSTGRES_PASSWORD: lgpwd
+  #     PGDATA: /var/lib/postgresql/data/pgdata
+  #   volumes:
+  #     - ./local-db:/var/lib/postgresql/data
+  #   ports:
+  #     - 5432:5432
+  #   networks:
+  #     - container-link
+
+networks:
+  default:
+    external:
+        name: bridge
+  container-link:
+    name: lg-pwd_network

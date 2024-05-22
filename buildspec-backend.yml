@@ -1,0 +1,37 @@
+version: 0.2
+
+env:
+  secrets-manager:
+    DOCKERHUB_USERNAME: integration.shared:DockerHubUsername
+    DOCKERHUB_TOKEN: integration.shared:DockerHubToken
+
+phases:
+  pre_build:
+    commands:
+      - "VERSION=$(echo ${CODEBUILD_RESOLVED_SOURCE_VERSION} | head -c 7)"
+      - "echo VERSION=${VERSION}"
+  build:
+    commands:
+      - "echo Logging in to Docker Hub..."
+      - "echo $DOCKERHUB_TOKEN | docker login -u $DOCKERHUB_USERNAME --password-stdin"
+      - "echo Logging in to Amazon ECR..."
+      - "aws ecr get-login-password --region ap-northeast-1 | docker login --username AWS --password-stdin 159044718114.dkr.ecr.ap-northeast-1.amazonaws.com"
+      - "docker build -t lg-pwd-api-${RESOURCE_ENV} backend"
+      - "docker tag lg-pwd-api-${RESOURCE_ENV}:latest 159044718114.dkr.ecr.ap-northeast-1.amazonaws.com/lg-pwd-api-${RESOURCE_ENV}:latest"
+      - "docker tag lg-pwd-api-${RESOURCE_ENV}:latest 159044718114.dkr.ecr.ap-northeast-1.amazonaws.com/lg-pwd-api-${RESOURCE_ENV}:${VERSION}"
+      - "docker push 159044718114.dkr.ecr.ap-northeast-1.amazonaws.com/lg-pwd-api-${RESOURCE_ENV}:latest"
+      - "docker push 159044718114.dkr.ecr.ap-northeast-1.amazonaws.com/lg-pwd-api-${RESOURCE_ENV}:${VERSION}"
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - |
+        if [ "${RESOURCE_ENV}" == "shared" ]; then
+          IMAGE_URI_ENV=$(echo develop);
+          echo ${IMAGE_URI_ENV};
+          printf '[{"name":"%s","imageUri":"%s"}]' lg-pwd-${IMAGE_URI_ENV}-api 159044718114.dkr.ecr.ap-northeast-1.amazonaws.com/lg-pwd-api-${RESOURCE_ENV}:latest > imagedefinitions.json;
+        else
+          printf '[{"name":"%s","imageUri":"%s"}]' lg-pwd-${RESOURCE_ENV}-api 159044718114.dkr.ecr.ap-northeast-1.amazonaws.com/lg-pwd-api-${RESOURCE_ENV}:latest > imagedefinitions.json;
+        fi
+artifacts:
+  files:
+    - imagedefinitions.json

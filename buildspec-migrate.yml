@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - "echo DB migration starts..."
+  build:
+    commands: >
+      aws ecs run-task
+      --launch-type FARGATE
+      --group RunTask
+      --task-definition lg-pwd-${RESOURCE_ENV}-api
+      --cluster  arn:aws:ecs:ap-northeast-1:159044718114:cluster/lg-pwd-${RESOURCE_ENV}
+      --network-configuration "awsvpcConfiguration={subnets=[subnet-${SUBNET1_ID},subnet-${SUBNET2_ID}],securityGroups=[sg-${SG_ID}],assignPublicIp=ENABLED}"
+      --overrides "containerOverrides=[{name=lg-pwd-${RESOURCE_ENV}-api,command=[python,manage.py,migrate]}]"
+  post_build:
+    commands:
+      - echo Build completed on `date`
+

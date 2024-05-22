@@ -1,0 +1,3226 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-08-16T21:09:56.830",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "e6cac9be-afcd-4850-9b90-9eb4f2055db6",
+            "object_repr": "ka-suzuki+biz2@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-08-16T21:10:01.880",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "object_repr": "ka-suzuki+biz1@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2022-08-16T21:14:09.543",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "object_repr": "ka-suzuki+biz1@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is staff\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-08-16T21:14:42.621",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "object_repr": "ka-suzuki@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-08-16T21:19:25.018",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "fd6fb2d8-9f3a-481d-83cc-5eaa5f0b88ab",
+            "object_repr": "Minato City.[131032] / ka-suzuki+gen1@mi-labo.co.jp / 2021-10-26 11:34:23.189000",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-08-16T21:19:46.911",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "e69781d2-30a5-49df-8e79-3055388adac5",
+            "object_repr": "Minato City.[131032] / 港区 / 2021-10-29 10:21:57.558000",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-08-16T21:19:50.962",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "a78039f9-3d1c-4a93-8036-68145ae1fa16",
+            "object_repr": "Chigasaki City.[131031] / 茅ヶ崎 / 2022-08-12 17:20:29.773000",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-08-16T21:19:53.590",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "692f6dcf-de43-4e6e-ba94-4de04a065fa7",
+            "object_repr": "Minato City.[131032] / s / 2021-11-08 15:03:46.699000",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-08-16T21:19:56.435",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "676febdb-1969-430d-b61a-8fb7829088c8",
+            "object_repr": "Chigasaki City.[131031] / ka-suzuki+gen1@mi-labo.co.jp / 2022-08-12 17:21:34.551000",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-08-16T21:19:59.104",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "52f46e58-f2af-42e8-b2d3-9551535c3f87",
+            "object_repr": "Minato City.[131032] / ka-suzuki+gen1@mi-labo.co.jp / 2021-10-29 10:20:38.013000",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-08-16T21:20:01.328",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "0b212ed2-8894-4317-810c-518cc85e6d2c",
+            "object_repr": "Minato City.[131032] / AAA / 2022-04-01 08:22:29.666000",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-08-16T21:20:03.654",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "272674f5-8d6b-4a28-8a64-cf24b890eaf6",
+            "object_repr": "Chigasaki City.[131031] / ka-suzuki+gen1@mi-labo.co.jp / 2022-08-12 16:43:39.318000",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-08-16T21:20:05.831",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 17,
+            "object_id": "3bb0cd3a-85e3-4c47-9505-b76e87ea7866",
+            "object_repr": "Minato City.[131032] / a / 2021-11-08 15:02:11.394000",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-08-16T21:42:31.408",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "object_repr": "ka-suzuki+gen1@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-08-16T21:42:34.846",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "object_repr": "ka-suzuki+gen1@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-08-16T21:42:41.584",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "b349c3bb-b89f-479a-9cab-d1f8ef683e3c",
+            "object_repr": "ka-suzuki+gen2@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-08-16T21:42:44.987",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "b349c3bb-b89f-479a-9cab-d1f8ef683e3c",
+            "object_repr": "ka-suzuki+gen2@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2022-08-16T21:42:47.910",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-08-16T21:42:51.268",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-08-16T21:42:57.152",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2022-08-16T21:43:21.431",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2022-08-16T21:43:22.599",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2022-08-16T21:43:32.515",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2022-08-16T21:43:36.677",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "object_repr": "ka-suzuki+gen1@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2022-08-16T21:44:20.522",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "object_repr": "ka-suzuki+gen1@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2022-08-18T12:28:04.237",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "ef97544b-308c-455d-8964-a77fe8315b8c",
+            "object_repr": "UserProfile object (ef97544b-308c-455d-8964-a77fe8315b8c)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2022-08-18T12:28:04.262",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "d26cdcd8-20d2-423b-b783-576eac3a6f0f",
+            "object_repr": "UserProfile object (d26cdcd8-20d2-423b-b783-576eac3a6f0f)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2022-08-18T12:28:04.283",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "929e66bc-fd70-42a5-85e9-9ec15b37c28d",
+            "object_repr": "UserProfile object (929e66bc-fd70-42a5-85e9-9ec15b37c28d)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2022-08-18T12:28:04.300",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "76d471b7-2925-41fa-b741-d40efc781412",
+            "object_repr": "UserProfile object (76d471b7-2925-41fa-b741-d40efc781412)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2022-08-18T12:28:04.317",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "57aa942d-b984-4656-a245-c74bc984fb49",
+            "object_repr": "UserProfile object (57aa942d-b984-4656-a245-c74bc984fb49)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2022-08-18T12:28:04.337",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "2f17481e-be56-4deb-afb8-c3f5e08abc60",
+            "object_repr": "UserProfile object (2f17481e-be56-4deb-afb8-c3f5e08abc60)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.173",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "bb66387f-ea9f-46a7-9e93-5b9e27d44c9f",
+            "object_repr": "ka-suzuki+gen1@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.194",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "b3a03e92-7ecd-47fe-9768-dce35a34f63f",
+            "object_repr": "ka-suzuki+biz2@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.214",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "9b3e0d19-4fc5-4612-8fdf-88260e918359",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.228",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "9218692a-0623-4898-af74-abaaffbcbac3",
+            "object_repr": "ka-suzuki+biz1@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.244",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "91d1c693-c0b7-4261-a701-d7aac6f9fe57",
+            "object_repr": "ka-suzuki@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.258",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "8e34db42-ad62-4cc4-8eda-21d5318e9fa0",
+            "object_repr": "ka-suzuki+gen2@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.273",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "83c78023-49ee-48a5-a469-fc53b344da68",
+            "object_repr": "ka-suzuki+gen1@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.288",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "63430f28-433b-4d5e-9e1d-ad166a6a14d4",
+            "object_repr": "ka-suzuki+biz2@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.303",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "45877cdc-fc12-40e6-b06b-a35f71e9f2bb",
+            "object_repr": "ka-suzuki+biz1@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.318",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "42816d3c-5a85-4a16-be14-eb55128a52cb",
+            "object_repr": "ka-suzuki@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.334",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "357fef86-fbd8-44a0-a6ba-f3f4dc83a97d",
+            "object_repr": "ka-suzuki+gen2@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2022-08-18T12:42:44.350",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "25e79531-7d15-4312-8ba9-102fcc37d1be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2022-08-18T12:52:47.040",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "f9ba3836-b049-4828-924e-e8f1cffb7322",
+            "object_repr": "UserProfile object (f9ba3836-b049-4828-924e-e8f1cffb7322)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2022-08-18T12:52:47.064",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "e444d2e1-3cba-476f-9476-2401c5124401",
+            "object_repr": "UserProfile object (e444d2e1-3cba-476f-9476-2401c5124401)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2022-08-18T12:52:47.085",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "ce882636-0fe6-47b9-914e-83b63a2e1116",
+            "object_repr": "UserProfile object (ce882636-0fe6-47b9-914e-83b63a2e1116)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2022-08-18T12:52:47.104",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "cc76bb1a-ccf4-4b3f-b15e-d46f055c02ac",
+            "object_repr": "UserProfile object (cc76bb1a-ccf4-4b3f-b15e-d46f055c02ac)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2022-08-18T12:52:47.120",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "63828f4e-cecd-4719-ac37-97a68ee6e24e",
+            "object_repr": "UserProfile object (63828f4e-cecd-4719-ac37-97a68ee6e24e)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2022-08-18T12:52:47.135",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "1ef3abdc-6e84-45c1-b788-0df9c63f99cf",
+            "object_repr": "UserProfile object (1ef3abdc-6e84-45c1-b788-0df9c63f99cf)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2022-08-18T12:56:54.191",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "e6cac9be-afcd-4850-9b90-9eb4f2055db6",
+            "object_repr": "UserProfile object (e6cac9be-afcd-4850-9b90-9eb4f2055db6)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2022-08-18T12:56:54.219",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "object_repr": "UserProfile object (b5622d0d-8a94-410a-9c9d-990fb8044d16)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2022-08-18T12:56:54.239",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "b349c3bb-b89f-479a-9cab-d1f8ef683e3c",
+            "object_repr": "UserProfile object (b349c3bb-b89f-479a-9cab-d1f8ef683e3c)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2022-08-18T12:56:54.254",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "object_repr": "UserProfile object (8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2022-08-18T12:56:54.270",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "UserProfile object (88b4db28-3ae7-40af-b62c-09ebe74900be)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2022-08-18T12:56:54.285",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "object_repr": "UserProfile object (70090bca-f105-4f4d-b2fe-64f07ea853b0)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2022-08-18T13:37:15.071",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Phone number\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2022-08-18T13:50:55.019",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "ka-suzuki+gen3@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Phone number\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2022-08-18T13:52:16.494",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "e6cac9be-afcd-4850-9b90-9eb4f2055db6",
+            "object_repr": "UserProfile object (e6cac9be-afcd-4850-9b90-9eb4f2055db6)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2022-08-18T13:52:16.519",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "object_repr": "UserProfile object (b5622d0d-8a94-410a-9c9d-990fb8044d16)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2022-08-18T13:52:16.538",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "b349c3bb-b89f-479a-9cab-d1f8ef683e3c",
+            "object_repr": "UserProfile object (b349c3bb-b89f-479a-9cab-d1f8ef683e3c)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2022-08-18T13:52:16.576",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "object_repr": "UserProfile object (8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2022-08-18T13:52:16.594",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "object_repr": "UserProfile object (88b4db28-3ae7-40af-b62c-09ebe74900be)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2022-08-18T13:52:16.611",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 21,
+            "object_id": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "object_repr": "UserProfile object (70090bca-f105-4f4d-b2fe-64f07ea853b0)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2022-08-18T19:10:04.956",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "object_repr": "ka-suzuki+gen1@mi-labo.co.jp",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2022-08-19T15:47:58.035",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "3dcf4e0f-f8c0-4cba-8e7b-6f684e3e1d74",
+            "object_repr": "ka-suzuki+gen1@mi-labo.co.jp / None",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is subscribe\", \"Is active\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2022-08-19T15:56:47.528",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "object_repr": "Minato City.[131032] / ka-suzuki+gen1@mi-labo.co.jp / None",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2022-08-22T15:41:57.071",
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "content_type": 6,
+            "object_id": "3dcf4e0f-f8c0-4cba-8e7b-6f684e3e1d74",
+            "object_repr": "Chigasaki City.[131031] / ka-suzuki+gen4@mi-labo.co.jp / None",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "1dg4i12leef4xxdtt6hijg85pf3so1od",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1n5Kc7:0caKZD_AJqCjzf_7HAKjTVzW5JncWMWt7s4Y3bFWBSA",
+            "expire_date": "2022-01-20T13:42:59.188"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "2jvc3tgkn0x42x30zshrjunbak3k6gc5",
+        "fields": {
+            "session_data": ".eJxVzDkOwjAURdG9uCaWZ8eU9Kwh-pNJACVShgqxd4iUAup3z3upDra177ZF5m5gdVYtxuCscBNKliaQiQ1CbhsrBh2iBU6iTr8MgR4y7pbvMN4mTdO4zgPqPdHHuujrxPK8HO3fQQ9L_9WxmhoYyYkXBDAsxhbDNTIRezGZUhEqvjgJlqpPMUUImbC1NQuSen8AYFNC4w:1nhOjD:m29hiGIIbfFMK_zu06sujb9QAuijsm0XhI_1cbmazfs",
+            "expire_date": "2022-05-05T13:47:39.215"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "4bh0podea50glkh1hu99nkvmrk4u7l2z",
+        "fields": {
+            "session_data": ".eJxVzDkOwjAURdG9uCaWZ8eU9Kwh-pNJACVShgqxd4iUAup3z3upDra177ZF5m5gdVYtxuCscBNKliaQiQ1CbhsrBh2iBU6iTr8MgR4y7pbvMN4mTdO4zgPqPdHHuujrxPK8HO3fQQ9L_9WxmhoYyYkXBDAsxhbDNTIRezGZUhEqvjgJlqpPMUUImbC1NQuSen8AYFNC4w:1naqf4:f56YNb-pKDmwFUq5g8ztFPWaH2zLKbqEresvnXftL1A",
+            "expire_date": "2022-04-17T12:12:18.301"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "4l03fiy88ihghc8uv0sjq5p2jkvug445",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1nKsUW:__52R2c2ZmDDHaaY3N34MHVYH6Fik9ZNRaqHlTAW2ow",
+            "expire_date": "2022-03-04T10:55:24.626"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "8mlfv7g55099onewmr4vokirzmiqqt6z",
+        "fields": {
+            "session_data": ".eJxVzDkOwjAURdG9uCaWZ8eU9Kwh-pNJACVShgqxd4iUAup3z3upDra177ZF5m5gdVYtxuCscBNKliaQiQ1CbhsrBh2iBU6iTr8MgR4y7pbvMN4mTdO4zgPqPdHHuujrxPK8HO3fQQ9L_9WxmhoYyYkXBDAsxhbDNTIRezGZUhEqvjgJlqpPMUUImbC1NQuSen8AYFNC4w:1ncIzD:nMPQriyMcPZSH2KrbW6G3wNJqe6_GxLNmQWk6u8K77Y",
+            "expire_date": "2022-04-21T12:39:07.785"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "946l1h1io2s0eyfpfmb6djbmyhhw2pmb",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1nD1I5:iCYYfF6jZZk_JyH5Fpo1NScda_B88J7TlGdtt9KI0ac",
+            "expire_date": "2022-02-10T18:42:05.045"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "a56xdpi12z41mom2c7vn97stct1g97o5",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1nAORv:ycQIshxnH7vfi6wZR8OZNfPV1Rue1wOSUGWD6KcnXTc",
+            "expire_date": "2022-02-03T12:49:23.142"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "bk9y2vdedekq5z4ophtk93u9h7vf0adn",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1nRskN:o24AqNe43Atcp-j6jNZlS7Pe8DFZOUQryU9CaFtspsI",
+            "expire_date": "2022-03-23T18:36:43.762"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "cj9jexjhmmrg5qsm1ik1onfdc9eetb8i",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1n0Fk2:pQwrHxZh7xT1jPFo0qCNsBwApFLlhmy-7mTJqWHD39M",
+            "expire_date": "2022-01-06T13:30:10.365"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "dn7j2q4ti5gsfb5c9ai4fyhn3ye33r1s",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1mVrGB:OIW2qioTKzuJVvgGghZ3gx90AQUJBqLWA-wyzgCje00",
+            "expire_date": "2021-10-14T17:17:43.740"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "e1fdbg87y3mq0ef7w09um1fvvfqi2m5s",
+        "fields": {
+            "session_data": ".eJxVzDkOwjAURdG9uCaWZ8eU9Kwh-pNJACVShgqxd4iUAup3z3upDra177ZF5m5gdVYtxuCscBNKliaQiQ1CbhsrBh2iBU6iTr8MgR4y7pbvMN4mTdO4zgPqPdHHuujrxPK8HO3fQQ9L_9WxmhoYyYkXBDAsxhbDNTIRezGZUhEqvjgJlqpPMUUImbC1NQuSen8AYFNC4w:1oOuw3:l5vxDIeyCMJLkgiPjwTKZC7dwbLhbxpjNz_3Fy87Z8w",
+            "expire_date": "2022-09-02T14:52:47.204"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "e2l0wcyspad0ea1mtvwgdgi7tcraigt3",
+        "fields": {
+            "session_data": ".eJxVzDkOwjAURdG9uCaWZ8eU9Kwh-pNJACVShgqxd4iUAup3z3upDra177ZF5m5gdVYtxuCscBNKliaQiQ1CbhsrBh2iBU6iTr8MgR4y7pbvMN4mTdO4zgPqPdHHuujrxPK8HO3fQQ9L_9WxmhoYyYkXBDAsxhbDNTIRezGZUhEqvjgJlqpPMUUImbC1NQuSen8AYFNC4w:1nnwCt:F-E_-u4l-zNUvxiiDT2_JQdBXXiGfUPbD6C63zr0xb0",
+            "expire_date": "2022-05-23T14:45:19.812"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "egcva2k91wjqnx85xif0n6s5xp9umqng",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1mV2PY:28hENsSLs5p_kDZz_CbgA_ivaopAffK2FynRS9Fuzxg",
+            "expire_date": "2021-10-12T11:00:00.287"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "fiov14d8vjr1cvivxnae08uw5ck6j1y7",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1nBsEr:fpwM7Oix63Knw9yXN4B2M_oaD-FQCnqsEPjBNNBp5zk",
+            "expire_date": "2022-02-07T14:50:01.304"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "gydn7s21ey9mwqdjeawpovw3bk4t5zwh",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1nHe2C:KbPEJLvN_BcCZvzyYomDf6Mzg419pRp3SYrw2uou4Vw",
+            "expire_date": "2022-02-23T12:52:48.333"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "h4rdylwmsygkn9a6iwcz2jmxlkqizy2b",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1mjwKx:KJKOs_0XzTE5w2cC1BHPJU0S5ghh6ccOTbWXuRe8lqs",
+            "expire_date": "2021-11-22T13:32:51.007"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "onlyu7ak3bcezmbo3nvc36t5d2uutlmw",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1merEx:HMiVO0M8sqqCsL8pTsIaqiOao2MJD4v9G78BI3m8FjE",
+            "expire_date": "2021-11-08T13:05:39.406"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "p3rgl9vb9g42dvwjjaxkntmi6ikssnir",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1nVRaK:psP6qi4_AGW-R1YPkrcElvXLx8_nTAEoisAc8JJ49cI",
+            "expire_date": "2022-04-02T14:25:04.039"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pdcm3fjlam9pvxzyzgf7rhl3yq81pt47",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1nEu11:XWZ3vly9i0bxf3yv9O1Y9j3Le5IUmaiud7tJ9BJSxGM",
+            "expire_date": "2022-02-15T23:20:15.740"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "plno8cc8dtk4h33w46xt01exsaele5ee",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1mpqpb:7HpkSz_DzkzP8OFrzVqsjY9gUU50W6mxYaP3ziU5238",
+            "expire_date": "2021-12-08T20:52:55.559"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "t22pjefj8fd4jqpzewk94f035drxxzrd",
+        "fields": {
+            "session_data": ".eJxVzDkOwjAURdG9uCaWZ8eU9Kwh-pNJACVShgqxd4iUAup3z3upDra177ZF5m5gdVYtxuCscBNKliaQiQ1CbhsrBh2iBU6iTr8MgR4y7pbvMN4mTdO4zgPqPdHHuujrxPK8HO3fQQ9L_9WxmhoYyYkXBDAsxhbDNTIRezGZUhEqvjgJlqpPMUUImbC1NQuSen8AYFNC4w:1oSdav:U5Gbq48WVDLhG7uJrl9miuykMg4G8DxA6quG6aNN2V4",
+            "expire_date": "2022-09-12T21:10:21.330"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ugjxl5jbqkkbsjegcgpaifilrmfac6mu",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1mbJCB:6Jc4bDPwAe6uyZtDI5tX9AoodQzInz513uhWmtdur9w",
+            "expire_date": "2021-10-29T18:08:07.332"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "vyno8vumz1jqrgyqefntziz842c1vyy3",
+        "fields": {
+            "session_data": ".eJxVzDkOwjAURdG9uCaWZ8eU9Kwh-pNJACVShgqxd4iUAup3z3upDra177ZF5m5gdVYtxuCscBNKliaQiQ1CbhsrBh2iBU6iTr8MgR4y7pbvMN4mTdO4zgPqPdHHuujrxPK8HO3fQQ9L_9WxmhoYyYkXBDAsxhbDNTIRezGZUhEqvjgJlqpPMUUImbC1NQuSen8AYFNC4w:1naYQ6:P6fhrisY1yzWMvWXpLymC3nauu_RiE2GflttgVBGD60",
+            "expire_date": "2022-04-16T16:43:38.782"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "xi25vovmcd5njva75lk7ylpitd8ztidr",
+        "fields": {
+            "session_data": ".eJxVzDkOwjAURdG9uCaWZ8eU9Kwh-pNJACVShgqxd4iUAup3z3upDra177ZF5m5gdVYtxuCscBNKliaQiQ1CbhsrBh2iBU6iTr8MgR4y7pbvMN4mTdO4zgPqPdHHuujrxPK8HO3fQQ9L_9WxmhoYyYkXBDAsxhbDNTIRezGZUhEqvjgJlqpPMUUImbC1NQuSen8AYFNC4w:1oQ22T:68wDfFOc69ViNWSrUhEJ2o4xvIco6xGWEobHcNJTa1M",
+            "expire_date": "2022-09-05T16:40:01.116"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "xi639x61baixe2lu1prh4ymycax9o04l",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAMQO-SmURJSeKWkZ0zVHZs0wJqpX4mxN1ppQ4wv8_btLguXbvOMrU9m4upKcUqCNvYgNhYfLKEUNsgniqigJzFnH4zwvKUYW_5gcN9dGUclqkntyvuoLO7jSyv6-H-DTqcu61G1oZIyxmUlTRnLDGoTxkjJ0mJASreKJEHyaAZUUsTvQBkakoyny9wq0L9:1mYSP5:LOWF_xGy6yYWJjd-63QEGimZTnAmapzkxy5vswjm0K4",
+            "expire_date": "2021-10-21T21:21:39.112"
+        }
+    },
+    {
+        "model": "account.user",
+        "pk": "3dcf4e0f-f8c0-4cba-8e7b-6f684e3e1d74",
+        "fields": {
+            "password": "pbkdf2_sha256$320000$zQvTwVk1eF3SPvBssTlAHw$5YjmxYSwo5xcZ8U/+qk2F5aIepqczeMwU0PYTNe10pw=",
+            "last_login": null,
+            "email": "ka-suzuki+gen4@mi-labo.co.jp",
+            "region": 3,
+            "phone_number": "123",
+            "fax_number": null,
+            "type": "general",
+            "is_subscribe": true,
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2022-08-19T15:46:46.353"
+        }
+    },
+    {
+        "model": "account.user",
+        "pk": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$4teXiZfcoZTZ23tcAyUc83$jH68p7VKzreCUyKkzdb5PoMLLgFKn+vZYzcCwHKC5D8=",
+            "last_login": null,
+            "email": "ka-suzuki+biz1@mi-labo.co.jp",
+            "region": 1,
+            "phone_number": "0",
+            "fax_number": null,
+            "type": "business",
+            "is_subscribe": true,
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2021-09-28T11:22:43.525"
+        }
+    },
+    {
+        "model": "account.user",
+        "pk": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$vOIYKP1eUsM2JOJD3TmYC5$cVHCkH0wNVFBrZmxzsEwDa3iG+8caCoLpecV+1xlUZg=",
+            "last_login": null,
+            "email": "ka-suzuki+gen3@mi-labo.co.jp",
+            "region": 1,
+            "phone_number": "1",
+            "fax_number": null,
+            "type": "general",
+            "is_subscribe": true,
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2021-09-28T11:22:43.525"
+        }
+    },
+    {
+        "model": "account.user",
+        "pk": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+        "fields": {
+            "password": "pbkdf2_sha256$320000$XjAL0ThTrnWh2iTxtEeKxN$N3g93urNPE8yzNwdKi2zlZiFO55n1QIr9jJbjLSkLFs=",
+            "last_login": "2022-08-29T21:10:21.328",
+            "email": "ka-suzuki@mi-labo.co.jp",
+            "region": 0,
+            "phone_number": "2",
+            "fax_number": null,
+            "type": "general",
+            "is_subscribe": true,
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "date_joined": "2021-09-28T11:22:43.525"
+        }
+    },
+    {
+        "model": "account.user",
+        "pk": "b349c3bb-b89f-479a-9cab-d1f8ef683e3c",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$tLnsT9QuafYH0FTJQAfkAG$ZGsZ5M1GTlWf9yddED/TUWssqPR0lqXbsXOM9O22xfM=",
+            "last_login": null,
+            "email": "ka-suzuki+gen2@mi-labo.co.jp",
+            "region": 1,
+            "phone_number": "3",
+            "fax_number": null,
+            "type": "general",
+            "is_subscribe": true,
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2021-09-28T11:22:43.525"
+        }
+    },
+    {
+        "model": "account.user",
+        "pk": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+        "fields": {
+            "password": "pbkdf2_sha256$320000$ZrqUCDbMrYOsYyTjSasBje$gml1Iffd3QuCXBZmpapw5oqfpnGrmnKrOdv1qBvgNCY=",
+            "last_login": null,
+            "email": "ka-suzuki+gen1@mi-labo.co.jp",
+            "region": 1,
+            "phone_number": "4",
+            "fax_number": null,
+            "type": "general",
+            "is_subscribe": true,
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2021-09-28T11:22:43.525"
+        }
+    },
+    {
+        "model": "account.user",
+        "pk": "e6cac9be-afcd-4850-9b90-9eb4f2055db6",
+        "fields": {
+            "password": "pbkdf2_sha256$320000$FXCGQYLub3I7qAHe3MXsDH$mYG0zGXZ1G1r5I/I/tDYtRsy3AYrBiwD1OvWERYGmzw=",
+            "last_login": null,
+            "email": "ka-suzuki+biz2@mi-labo.co.jp",
+            "region": 1,
+            "phone_number": "5",
+            "fax_number": null,
+            "type": "business",
+            "is_subscribe": true,
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2021-09-28T11:22:43.525"
+        }
+    },
+    {
+        "model": "account.usercityca",
+        "pk": 5,
+        "fields": {
+            "user": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "uid": "5b5f0927-9f82-4428-ad9c-8d9291b133eb"
+        }
+    },
+    {
+        "model": "account.partitioneduserprofile",
+        "pk": "3dcf4e0f-f8c0-4cba-8e7b-6f684e3e1d74",
+        "fields": {
+            "region": 3,
+            "user": "3dcf4e0f-f8c0-4cba-8e7b-6f684e3e1d74",
+            "kana_last_name": null,
+            "kana_first_name": null,
+            "last_name": null,
+            "first_name": null,
+            "phone_number": "123",
+            "email": "ka-suzuki+gen4@mi-labo.co.jp",
+            "fax_number": null,
+            "user_type": null,
+            "account_type": "general",
+            "birthday_era": null,
+            "birthday_year": null,
+            "birthday_month": null,
+            "birthday_day": null,
+            "postal_code_1": null,
+            "postal_code_2": null,
+            "address_prefecture": null,
+            "address_city": null,
+            "address_block_kanji": null,
+            "address_block_kana": null,
+            "disability_type": null,
+            "is_subscribe": true,
+            "created_at": "2022-08-29T21:35:35.931",
+            "updated_at": "2022-08-29T21:35:35.931"
+        }
+    },
+    {
+        "model": "account.partitioneduserprofile",
+        "pk": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+        "fields": {
+            "region": 1,
+            "user": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "kana_last_name": null,
+            "kana_first_name": null,
+            "last_name": null,
+            "first_name": null,
+            "phone_number": "0",
+            "email": "ka-suzuki+biz1@mi-labo.co.jp",
+            "fax_number": null,
+            "user_type": null,
+            "account_type": "business",
+            "birthday_era": null,
+            "birthday_year": null,
+            "birthday_month": null,
+            "birthday_day": null,
+            "postal_code_1": null,
+            "postal_code_2": null,
+            "address_prefecture": null,
+            "address_city": null,
+            "address_block_kanji": null,
+            "address_block_kana": null,
+            "disability_type": null,
+            "is_subscribe": true,
+            "created_at": "2022-08-29T21:35:35.937",
+            "updated_at": "2022-08-29T21:35:35.937"
+        }
+    },
+    {
+        "model": "account.partitioneduserprofile",
+        "pk": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+        "fields": {
+            "region": 1,
+            "user": "88b4db28-3ae7-40af-b62c-09ebe74900be",
+            "kana_last_name": null,
+            "kana_first_name": null,
+            "last_name": null,
+            "first_name": null,
+            "phone_number": "1",
+            "email": "ka-suzuki+gen3@mi-labo.co.jp",
+            "fax_number": null,
+            "user_type": null,
+            "account_type": "general",
+            "birthday_era": null,
+            "birthday_year": null,
+            "birthday_month": null,
+            "birthday_day": null,
+            "postal_code_1": null,
+            "postal_code_2": null,
+            "address_prefecture": null,
+            "address_city": null,
+            "address_block_kanji": null,
+            "address_block_kana": null,
+            "disability_type": null,
+            "is_subscribe": true,
+            "created_at": "2022-08-29T21:35:35.941",
+            "updated_at": "2022-08-29T21:35:35.941"
+        }
+    },
+    {
+        "model": "account.partitioneduserprofile",
+        "pk": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+        "fields": {
+            "region": 0,
+            "user": "8b5421ed-497e-4c05-ba78-1e0b2bb1ad6e",
+            "kana_last_name": null,
+            "kana_first_name": null,
+            "last_name": null,
+            "first_name": null,
+            "phone_number": "2",
+            "email": "ka-suzuki@mi-labo.co.jp",
+            "fax_number": null,
+            "user_type": null,
+            "account_type": "general",
+            "birthday_era": null,
+            "birthday_year": null,
+            "birthday_month": null,
+            "birthday_day": null,
+            "postal_code_1": null,
+            "postal_code_2": null,
+            "address_prefecture": null,
+            "address_city": null,
+            "address_block_kanji": null,
+            "address_block_kana": null,
+            "disability_type": null,
+            "is_subscribe": true,
+            "created_at": "2022-08-29T21:35:35.958",
+            "updated_at": "2022-08-29T21:35:35.958"
+        }
+    },
+    {
+        "model": "account.partitioneduserprofile",
+        "pk": "b349c3bb-b89f-479a-9cab-d1f8ef683e3c",
+        "fields": {
+            "region": 1,
+            "user": "b349c3bb-b89f-479a-9cab-d1f8ef683e3c",
+            "kana_last_name": null,
+            "kana_first_name": null,
+            "last_name": null,
+            "first_name": null,
+            "phone_number": "3",
+            "email": "ka-suzuki+gen2@mi-labo.co.jp",
+            "fax_number": null,
+            "user_type": null,
+            "account_type": "general",
+            "birthday_era": null,
+            "birthday_year": null,
+            "birthday_month": null,
+            "birthday_day": null,
+            "postal_code_1": null,
+            "postal_code_2": null,
+            "address_prefecture": null,
+            "address_city": null,
+            "address_block_kanji": null,
+            "address_block_kana": null,
+            "disability_type": null,
+            "is_subscribe": true,
+            "created_at": "2022-08-29T21:35:35.946",
+            "updated_at": "2022-08-29T21:35:35.946"
+        }
+    },
+    {
+        "model": "account.partitioneduserprofile",
+        "pk": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+        "fields": {
+            "region": 1,
+            "user": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "kana_last_name": null,
+            "kana_first_name": null,
+            "last_name": null,
+            "first_name": null,
+            "phone_number": "4",
+            "email": "ka-suzuki+gen1@mi-labo.co.jp",
+            "fax_number": null,
+            "user_type": null,
+            "account_type": "general",
+            "birthday_era": null,
+            "birthday_year": null,
+            "birthday_month": null,
+            "birthday_day": null,
+            "postal_code_1": null,
+            "postal_code_2": null,
+            "address_prefecture": null,
+            "address_city": null,
+            "address_block_kanji": null,
+            "address_block_kana": null,
+            "disability_type": null,
+            "is_subscribe": true,
+            "created_at": "2022-08-29T21:35:35.950",
+            "updated_at": "2022-08-29T21:35:35.950"
+        }
+    },
+    {
+        "model": "account.partitioneduserprofile",
+        "pk": "e6cac9be-afcd-4850-9b90-9eb4f2055db6",
+        "fields": {
+            "region": 1,
+            "user": "e6cac9be-afcd-4850-9b90-9eb4f2055db6",
+            "kana_last_name": null,
+            "kana_first_name": null,
+            "last_name": null,
+            "first_name": null,
+            "phone_number": "5",
+            "email": "ka-suzuki+biz2@mi-labo.co.jp",
+            "fax_number": null,
+            "user_type": null,
+            "account_type": "business",
+            "birthday_era": null,
+            "birthday_year": null,
+            "birthday_month": null,
+            "birthday_day": null,
+            "postal_code_1": null,
+            "postal_code_2": null,
+            "address_prefecture": null,
+            "address_city": null,
+            "address_block_kanji": null,
+            "address_block_kana": null,
+            "disability_type": null,
+            "is_subscribe": true,
+            "created_at": "2022-08-29T21:35:35.954",
+            "updated_at": "2022-08-29T21:35:35.954"
+        }
+    },
+    {
+        "model": "app.region",
+        "pk": 0,
+        "fields": {
+            "created_by": null,
+            "updated_at": "2022-08-29T11:22:43.525",
+            "updated_by": null,
+            "name": "管理者用",
+            "city_code": "0",
+            "active_since": null,
+            "active_until": null,
+            "email": "ka-suzuki@mi-labo.co.jp",
+            "header_image": "image-minato.png",
+            "top_image": "top4-minato.jpg",
+            "header_text": "管理者用",
+            "base_color": "purple",
+            "created_at": "2022-08-29T11:22:43.525"
+        }
+    },
+    {
+        "model": "app.region",
+        "pk": 1,
+        "fields": {
+            "created_by": null,
+            "updated_at": "2021-09-28T11:22:43.525",
+            "updated_by": null,
+            "name": "Minato City.",
+            "city_code": "131032",
+            "active_since": null,
+            "active_until": null,
+            "email": "minato@mail.com",
+            "header_image": "image-minato.png",
+            "top_image": "top4-minato.jpg",
+            "header_text": "みなと障害者支援アプリ",
+            "base_color": "purple",
+            "created_at": "2021-09-28T11:22:43.525"
+        }
+    },
+    {
+        "model": "app.region",
+        "pk": 3,
+        "fields": {
+            "created_by": null,
+            "updated_at": "2022-08-10T18:06:49.080",
+            "updated_by": null,
+            "name": "Chigasaki City.",
+            "city_code": "131031",
+            "active_since": null,
+            "active_until": null,
+            "email": "minato@mail.com",
+            "header_image": "image-minato.png",
+            "top_image": "top4-minato.jpg",
+            "header_text": "茅ヶ崎障害者アプリ",
+            "base_color": "blue",
+            "created_at": "2022-08-10T18:06:49.080"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 8,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "お知らせテスト1",
+            "body": "お知らせテスト元リンク1\r\nhttps://www.google.com\r\nお知らせテスト元リンク1\r\naa https://www.google.com\r\ntoast\r\n[https://www.google.com](https://www.google.com)\r\ntoast\r\n[Google](https://www.google.com)\r\nNext [Google](https://www.google.com) Next\r\nbefore [Googlehttps://www.google.com) before\r\nafter [http://www.google.com",
+            "active_since": "2022-01-02T18:22:53",
+            "is_active": true,
+            "created_at": "2021-11-08T17:47:37.184",
+            "updated_at": "2022-03-27T15:17:25.388"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 11,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "退会",
+            "body": "退会するぞ1\n退会するぞ2\n\n退会するぞ3\n退会するぞ4\n退会するぞ5",
+            "active_since": "2022-02-18T11:15:00",
+            "is_active": true,
+            "created_at": "2022-02-18T11:08:35.559",
+            "updated_at": "2022-03-29T00:32:49.403"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 12,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "test",
+            "body": "test",
+            "active_since": "2022-03-15T12:45:00",
+            "is_active": true,
+            "created_at": "2022-03-15T12:51:53.907",
+            "updated_at": "2022-03-23T16:57:47.550"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 17,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "111",
+            "body": "wwwww\n\n[https://nhn.github.io/tui.editor/latest/ToastUIEditorCore](https://nhn.github.io/tui.editor/latest/ToastUIEditorCore)",
+            "active_since": "2022-03-29T18:00:00",
+            "is_active": true,
+            "created_at": "2022-03-21T17:45:41.794",
+            "updated_at": "2022-04-01T18:59:41.668"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 25,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "1111111",
+            "body": "123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123",
+            "active_since": "2022-03-22T18:45:00",
+            "is_active": true,
+            "created_at": "2022-03-27T01:41:39.719",
+            "updated_at": "2022-03-29T00:29:21.936"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 26,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "22222",
+            "body": "111111111111111111111111111111111111111111111111\n\n44444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444\n\n222222222222222222222222222222222222222222222222\n\n3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "active_since": "2022-03-21T08:30:00",
+            "is_active": true,
+            "created_at": "2022-03-27T01:50:20.553",
+            "updated_at": "2022-04-01T18:57:57.776"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 27,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "3333333",
+            "body": "| a | q | q | q | a |\n| --- | --- | --- | --- | --- |\n| b | q |  |  | b |\n| c | q | q |  | b |\n| d | q | q |  | b |\n| d |  |  |  | b |",
+            "active_since": "2022-03-24T02:15:00",
+            "is_active": true,
+            "created_at": "2022-03-27T02:15:39.603",
+            "updated_at": "2022-03-29T00:29:27.577"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 35,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "１１１１",
+            "body": "[http://localhost:3000/admin/notification?citycode=131032](http://localhost:3000/admin/notification?citycode=131032)",
+            "active_since": "2022-03-15T02:45:00",
+            "is_active": true,
+            "created_at": "2022-03-27T02:41:09.587",
+            "updated_at": "2022-03-28T17:04:56.053"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 51,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "AWS",
+            "body": "![money_kyuuyo_kyuuryou_meisai.png](https://uploaded-files-develop.s3.amazonaws.com/notification-uploaded-files/7fe8fcd2-e95c-42b3-a14f-98a157321d3e.png?AWSAccessKeyId=AKIASKB6NZYRDYQ5HZIE&Signature=hsyhSAhwuJQ6RSfmaIO7t2Szv84%3D&Expires=1648805952)",
+            "active_since": "2022-04-01T19:00:00",
+            "is_active": true,
+            "created_at": "2022-04-01T17:39:18.249",
+            "updated_at": "2022-04-01T19:01:21.489"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 82,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "RFTE",
+            "body": "222\nWED\nEEE\n![TTT](/api/v1/app/upload_file/public/?file_id=3fc4cde6-8a31-4538-9036-e107d9cc86e8)\nDD\n\n![WWW](/api/v1/app/upload_file/public/?file_id=e179ae27-65fd-4edf-bdbb-c38929075ad0)\n\n33333\nFFF\n\n![](/api/v1/app/upload_file/public/?file_id=fc0c2629-78c0-417c-805b-30f9a740840c)",
+            "active_since": "2022-04-21T13:15:00",
+            "is_active": true,
+            "created_at": "2022-04-07T13:08:08.096",
+            "updated_at": "2022-04-21T13:48:16.012"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 85,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "AWq",
+            "body": "QW\n![](/api/v1/app/upload_file/public/?file_id=fa0cd423-4195-43ea-9b25-ba41925cdac8)",
+            "active_since": "2022-04-07T13:45:00",
+            "is_active": true,
+            "created_at": "2022-04-07T13:34:25.144",
+            "updated_at": "2022-04-07T14:27:04.508"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 87,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "Test",
+            "body": "AAA",
+            "active_since": "2022-04-18T19:00:00",
+            "is_active": true,
+            "created_at": "2022-04-18T18:48:32.304",
+            "updated_at": "2022-04-18T18:48:32.304"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 92,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "AS",
+            "body": "![](/api/v1/app/upload_file/public/?file_id=7d1fefb5-01d7-42a3-9d4f-74f6d2565635)",
+            "active_since": "2022-05-09T21:15:00",
+            "is_active": true,
+            "created_at": "2022-05-09T19:32:13.958",
+            "updated_at": "2022-05-09T21:20:53.513"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 93,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "AWE",
+            "body": "SSE",
+            "active_since": "2022-05-09T21:30:00",
+            "is_active": true,
+            "created_at": "2022-05-09T19:32:58.183",
+            "updated_at": "2022-05-09T21:20:19.845"
+        }
+    },
+    {
+        "model": "app.notification",
+        "pk": 95,
+        "fields": {
+            "created_by": null,
+            "updated_by": null,
+            "region": 1,
+            "subject": "EDR",
+            "body": "EDR\n\nRTY",
+            "active_since": "2022-05-09T19:45:00",
+            "is_active": true,
+            "created_at": "2022-05-09T19:35:41.669",
+            "updated_at": "2022-05-09T19:36:00.970"
+        }
+    },
+    {
+        "model": "app.facilitycategory",
+        "pk": 1,
+        "fields": {
+            "name": "精神障害者グループホーム",
+            "contents": "障害者に対し、生活の場を提供し、地域社会における自立生活を支援します。夜間や休日に、共同生活を行う住居で入浴、排せつ、食事など日常生活上の援助や相談を行います。",
+            "created_at": "2021-11-02T14:19:58.659",
+            "updated_at": "2021-11-02T14:19:58.659"
+        }
+    },
+    {
+        "model": "app.facilitycategory",
+        "pk": 2,
+        "fields": {
+            "name": "知的障害者グループホーム",
+            "contents": "障害者に対し、生活の場を提供し、地域社会における自立生活を支援します。夜間や休日に、共同生活を行う住居で入浴、排せつ、食事など日常生活上の援助や相談を行います。",
+            "created_at": "2021-11-02T14:20:22.077",
+            "updated_at": "2021-11-02T14:20:22.077"
+        }
+    },
+    {
+        "model": "app.facilitycategory",
+        "pk": 3,
+        "fields": {
+            "name": "短期入所",
+            "contents": "在宅の常時介護を必要とする障害者（児）のいる家庭で、介護を行う者の疾病その他の理由がある場合に、短期間、夜間も含め、障害者（児）の入浴、排せつ又は食事等の介護を行います。",
+            "created_at": "2021-11-02T14:20:58.080",
+            "updated_at": "2021-11-02T14:20:58.080"
+        }
+    },
+    {
+        "model": "app.facilitycategory",
+        "pk": 4,
+        "fields": {
+            "name": "地域の相談拠点",
+            "contents": "障害者本人・家族等から生活全般にわたる相談を受付つけます。相談の内容からニーズを整理し、必要な障害福祉サービスにつなぎます。サービス等利用計画の作成が必要な場合は、計画を作成し、サービスの利用調整等の支援を行います。",
+            "created_at": "2021-11-02T14:21:14.402",
+            "updated_at": "2021-11-02T14:21:14.402"
+        }
+    },
+    {
+        "model": "app.facilitycategory",
+        "pk": 5,
+        "fields": {
+            "name": "その他",
+            "contents": "",
+            "created_at": "2021-11-02T14:21:23.222",
+            "updated_at": "2021-11-02T14:21:23.222"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 1,
+        "fields": {
+            "region": 1,
+            "name": "みなとワークアクティ",
+            "address": "〒105-0014 港区芝1-8-23 港区立障害保護福祉センター内",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5439-8057",
+            "fax_number": "03-5439-8058",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65167935235009, 139.75560780251126",
+            "contact": "障害保健福祉センター　みなとワークアクティ",
+            "business_description": "就労継続支援Ｂ型事業",
+            "contents": "一般企業等に就職することが困難な知的障害者に、生産活動を提供し、地域社会で豊かな生活を送れるよう自立を支援します。生産活動の内容は、製菓 ・受注・公園清掃・販売活動です。",
+            "target": "18歳以上の知的障害者で原則として単独通所が可能であり、かつ、作業能力があるまたは期待できる人",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:29:30.421"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 2,
+        "fields": {
+            "region": 1,
+            "name": "工房アミ",
+            "address": "〒105-0014 港区芝1-8-23 港区立障害保護福祉センター内",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5439-8059",
+            "fax_number": "03-5439-2514",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65167935235009, 139.75560780251126",
+            "contact": "障害保健福祉センター　工房アミ",
+            "business_description": "生活介護事業",
+            "contents": "日常生活に必要な支援、作業活動、レクリエーション活動等社会生活の経験の場を提供し、生活習慣の確立、身体機能の維持および社会的自立が図れるよう支援します。",
+            "target": "18歳以上の知的障害者で通所が可能な人（ただし、15歳以上18歳未満の人については個々の事情により利用することができます。）",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:29:35.877"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 3,
+        "fields": {
+            "region": 1,
+            "name": "みなと障がい者福祉事業団",
+            "address": "〒105-0014 港区芝1-8-23 障害保健福祉センター内",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5439-8062",
+            "fax_number": "03-5439-2515",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65167935235009, 139.75560780251126",
+            "contact": "〒105-0014 港区芝1-8-23 障害保健福祉センター内",
+            "business_description": "就労移行支援、就労継続支援A型、就労支援",
+            "contents": "就職に向けた訓練事業や企業等で働き続けるための支援を行うとともに、障害の程度や能力・適応に応じた仕事の場と機会を提供します。",
+            "target": "就労移行・継続A型：18歳以上で障害者総合支援法における支給決定者就労支援：18歳以上で働く意欲のある障害者",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:29:41.530"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 4,
+        "fields": {
+            "region": 1,
+            "name": "西麻布作業所",
+            "address": "〒106-0031 港区西麻布3-19-16",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-3408-1545",
+            "fax_number": "03-3408-1550",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.6596319795002,139.72572749384958",
+            "contact": "社会福祉法人家庭授産奨励会",
+            "business_description": "生活介護、就労継続支援Ｂ型",
+            "contents": "仕事の内容は、受託作業（簡易）、公園清掃、カフェ営業等です。本人の収入等に応じて利用者負担があります。",
+            "target": "18歳以上で障害者総合支援法における生活介護、就労継続支援Ｂ型支給決定者（知的障害者および精神障害者）",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:29:47.626"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 5,
+        "fields": {
+            "region": 1,
+            "name": "新橋はつらつ太陽",
+            "address": "〒105-0004 港区新橋6-19-2",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-3433-0180",
+            "fax_number": "03-3433-7320",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.66116850219773,139.75351117644615",
+            "contact": "社会福祉法人長岡福祉協会",
+            "business_description": "生活介護、施設入所支援、短期入所、重症心身障害者通所事業",
+            "contents": "生活・作業指導および体験等を通して個々の特性にあった社会参加を目指します。また、入所施設では短期入所（ショートステイ）も実施しています。通所併設として、重症心身障害者通所事業を行っています。",
+            "target": "18歳以上で障害者総合支援法における生活介護、施設入所支援支給決定者（知的障害者）および短期入所支給決定者（児）（知的障害者（児））",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:29:52.965"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 6,
+        "fields": {
+            "region": 1,
+            "name": "みなと工房",
+            "address": "〒105-0023 港区芝浦1-14-8-201",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-3455-8140",
+            "fax_number": "03-6421-4005",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.646911916350085,139.75263981158955",
+            "contact": "社会福祉法人港福会",
+            "business_description": "就労継続支援Ｂ型",
+            "contents": "軽作業やレクリエーション、地域のイベントへの参加、ボランティアとの交流を通して精神障害者への就労支援、地域生活支援を行います。",
+            "target": "18歳以上で障害者総合支援法における就労継続支援Ｂ型支給決定者（精神障害者）",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:29:58.103"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 7,
+        "fields": {
+            "region": 1,
+            "name": "風の子会高浜生活実習所",
+            "address": "〒105-0022 港区海岸2-6-29 平成海岸ビル5階",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-6809-4001",
+            "fax_number": "03-6809-4002",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.649648250930326,139.7589733765393",
+            "contact": "特定非営利活動法人 風の子会",
+            "business_description": "生活介護",
+            "contents": "「ひとりぼっちの障害者をなくそう」というボランティア等の力でできた施設です。",
+            "target": "送迎の必要な心身障害者等、障害者総合支援法における生活介護支給決定者",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:30:03.442"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 8,
+        "fields": {
+            "region": 1,
+            "name": "工房ラピール",
+            "address": "〒108-0074 港区高輪1-4-8 6階",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-3444-5223",
+            "fax_number": "03-3444-5223",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64297439040118,139.73486780608346",
+            "contact": "特定非営利活動法人 工房ラピール",
+            "business_description": "就労継続支援Ｂ型",
+            "contents": "障害者自らの能力を十分に発揮し、自己実現を支援します。ボランティアの人たちと共にクッキー作り、さをり織りの作業を中心にグループ学習等を行っています。",
+            "target": "18歳以上で障害者総合支援法における就労継続支援Ｂ型支給決定者",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:30:09.395"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 9,
+        "fields": {
+            "region": 1,
+            "name": "アイエスエフネットベネフィット青山事業所",
+            "address": "〒107-0062 港区南青山1-4-2 八並ビル3階・7階",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5785-3788",
+            "fax_number": "03-3497-5322",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.67127669200483,139.7248543582449",
+            "contact": "一般社団法人アイエスエフネットベネフィット",
+            "business_description": "就労継続支援Ｂ型",
+            "contents": "障害者が将来的に自立して就職できるよう、基礎訓練から就労のための実践的な訓練まで行い、企業への就労を目指す支援を行います。",
+            "target": "18歳以上で障害者総合支援法における就労継続支援Ｂ型支給決定者",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:30:15.415"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 10,
+        "fields": {
+            "region": 1,
+            "name": "アプローズ南青山",
+            "address": "〒107-0062 港区南青山4-3-24 青山NKビル2階",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-6804-3623",
+            "fax_number": "03-6804-3562",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.66623054179881,139.7202202889268",
+            "contact": "一般社団法人アプローズ",
+            "business_description": "就労継続支援Ｂ型",
+            "contents": "障害者やその家族がいきいきと暮らし、はたらき、自らの夢を叶えるためのサポートを行っています。プロの指導を受け、フラワーアレンジメントの商品を制作しています。",
+            "target": "18歳以上で障害者総合支援法における就労継続支援Ｂ型支給決定者",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:30:20.130"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 11,
+        "fields": {
+            "region": 1,
+            "name": "アトリエ・レダクラフト",
+            "address": "〒106-0045 港区麻布十番2-20-14-101",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-6435-0611",
+            "fax_number": "03-3453-4557",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65508823602834,139.7365578898264",
+            "contact": "一般社団法人レダクラフト",
+            "business_description": "就労継続支援Ａ型",
+            "contents": "仕事の内容は、ぬいぐるみ制作やドール用衣装制作等の針と糸を使う作業です。",
+            "target": "18歳以上で障害者総合支援法における就労継続支援Ａ型支給決定者",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:30:25.713"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 12,
+        "fields": {
+            "region": 1,
+            "name": "MUSE935(ミューズキュウサンゴ)",
+            "address": "〒106-0031 港区西麻布4-11-4 西麻布尾花ビル6階",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5424-1004",
+            "fax_number": "03-6433-5937",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65891911416687,139.7229676972934",
+            "contact": "一般社団法人日本代替医療食品研究会",
+            "business_description": "就労継続支援Ｂ型",
+            "contents": "就労作業訓練は、２年間で調理師免許の受験資格が得られる「セントラルキッチン」、ノーマライゼーションを具現化した「ネイルサロン」、社交不安障害の方もIT技術を生かせる「ITマーケティング」を提供しています。",
+            "target": "18歳以上で障害者総合支援法における就労継続支援Ｂ型支給決定者（軽度知的障害者、精神障害者）",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:30:31.241"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 13,
+        "fields": {
+            "region": 1,
+            "name": "工房ローズマリー・はーとカフェ",
+            "address": "〒108-0074 東京都港区高輪1-4-8",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5449-6458",
+            "fax_number": "03-5424-1391",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64297439040118,139.73486780608346",
+            "contact": "精神障害者支援センター",
+            "business_description": "就労継続支援Ｂ型",
+            "contents": "一般企業等に就職することが困難な精神障害者に、生産活動を提供し、地域社会で豊かな生活を送れるよう自立を支援します。生産活動の内容は、喫茶・売店、清掃、コーヒー豆の選別、封入作業です。",
+            "target": "18歳以上で障害者総合支援法における就労継続支援Ｂ型支給決定者（精神障害者）",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-19T12:09:13.099"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 14,
+        "fields": {
+            "region": 1,
+            "name": "知的障害者グループホーム",
+            "address": null,
+            "facility_type": "disabled_facility",
+            "category": null,
+            "postal_code": null,
+            "phone_number": null,
+            "fax_number": null,
+            "google_map": null,
+            "contact": null,
+            "business_description": "",
+            "contents": "障害者に対し、生活の場を提供し、地域社会における自立生活を支援します。夜間や休日に、共同生活を行う住居で入浴、排せつ、食事など日常生活上の援助や相談を行います。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:30:42.352"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 15,
+        "fields": {
+            "region": 1,
+            "name": "港区立障害者グループホーム芝浦",
+            "address": "〒108-0023  港区芝浦3-5-34",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-6453-7573",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.643522354150726,139.7478217432054",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:03:28.370"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 16,
+        "fields": {
+            "region": 1,
+            "name": "しろがねホーム",
+            "address": "〒108-0072 港区白金2-6-12",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-3443-6151",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64058892512301,139.72977500027557",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:03:37.634"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 17,
+        "fields": {
+            "region": 1,
+            "name": "カーサ赤坂",
+            "address": "〒108-0072 港区赤坂6-4-8",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-3583-0448",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.67035895367832,139.73493343736226",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:03:45.840"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 18,
+        "fields": {
+            "region": 1,
+            "name": "カーサ芝浦",
+            "address": "〒108-0023 港区芝浦4-18-30 レジディア芝浦805・905号室",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-3457-5144",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.63814080903278,139.749105140859",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:03:59.349"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 19,
+        "fields": {
+            "region": 1,
+            "name": "1番線ホーム",
+            "address": "〒108-0014 港区芝5-27-1 三田SSビル7階",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-6435-2285",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.647097683404404,139.7457267048969",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:04:10.708"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 20,
+        "fields": {
+            "region": 1,
+            "name": "2番線ホーム",
+            "address": "〒108-0014 港区芝5-27-1 三田SSビル6階",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-6435-2285",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.647097683404404,139.7457267048969",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:04:16.161"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 21,
+        "fields": {
+            "region": 1,
+            "name": "六本木ヒルサイドホーム",
+            "address": "〒106-0032 港区六本木6-5-25",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-6721-1290",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.661302031147734,139.73120210612103",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:04:22.802"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 22,
+        "fields": {
+            "region": 1,
+            "name": "かげともグループホーム",
+            "address": "〒108-0074 港区高輪3-16-1 ルミエール高輪102",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-6456-2496",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.634935584559535,139.73452872795272",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:04:35.234"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 23,
+        "fields": {
+            "region": 1,
+            "name": "クライスハイム高輪",
+            "address": "港区高輪1-4-8 7階・8階",
+            "facility_type": "disabled_facility",
+            "category": 2,
+            "postal_code": null,
+            "phone_number": "03-6456-2087",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64307742390283,139.73486612770736",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:04:41.660"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 24,
+        "fields": {
+            "region": 1,
+            "name": "精神障害者グループホーム",
+            "address": "",
+            "facility_type": "disabled_facility",
+            "category": null,
+            "postal_code": "",
+            "phone_number": "",
+            "fax_number": "",
+            "google_map": "",
+            "contact": "",
+            "business_description": "",
+            "contents": "障害者に対し、生活の場を提供し、地域社会における自立生活を支援します。夜間や休日に、共同生活を行う住居で入浴、排せつ、食事など日常生活上の援助や相談を行います。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": null
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 25,
+        "fields": {
+            "region": 1,
+            "name": "みなと芝浦ベイホーム",
+            "address": null,
+            "facility_type": "disabled_facility",
+            "category": 1,
+            "postal_code": null,
+            "phone_number": "03-3455-8140",
+            "fax_number": null,
+            "google_map": null,
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:04:55.085"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 26,
+        "fields": {
+            "region": 1,
+            "name": "アプローズHouse 南麻布",
+            "address": null,
+            "facility_type": "disabled_facility",
+            "category": 1,
+            "postal_code": null,
+            "phone_number": "03-6277-2648",
+            "fax_number": null,
+            "google_map": null,
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-11-02T13:40:42.250",
+            "updated_at": "2021-11-09T13:05:05.510"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 27,
+        "fields": {
+            "region": 1,
+            "name": "935 ファミリー・ワン 三田ハウス",
+            "address": null,
+            "facility_type": "disabled_facility",
+            "category": 1,
+            "postal_code": null,
+            "phone_number": "03-6447-7728",
+            "fax_number": null,
+            "google_map": null,
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:05:17.132"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 28,
+        "fields": {
+            "region": 1,
+            "name": "短期入所",
+            "address": "",
+            "facility_type": "disabled_facility",
+            "category": null,
+            "postal_code": "",
+            "phone_number": "",
+            "fax_number": "",
+            "google_map": "",
+            "contact": "",
+            "business_description": "",
+            "contents": "在宅の常時介護を必要とする障害者（児）のいる家庭で、介護を行う者の疾病その他の理由がある場合に、短期間、夜間も含め、障害者（児）の入浴、排せつ又は食事等の介護を行います。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": null
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 29,
+        "fields": {
+            "region": 1,
+            "name": "港区立障害保健福祉センター",
+            "address": "〒105-0014 港区芝1-8-23",
+            "facility_type": "disabled_facility",
+            "category": 3,
+            "postal_code": null,
+            "phone_number": "03-5439-2517",
+            "fax_number": "03-5439-2518",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65164807374701,139.75560569629323",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:05:27.881"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 30,
+        "fields": {
+            "region": 1,
+            "name": "港区立障害者支援ホーム南麻布",
+            "address": "港区南麻布4-6-13",
+            "facility_type": "disabled_facility",
+            "category": 3,
+            "postal_code": null,
+            "phone_number": "03-6455-7797",
+            "fax_number": "03-6455-7798",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65044029582917,139.72725193892478",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:05:32.818"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 31,
+        "fields": {
+            "region": 1,
+            "name": "新橋はつらつ太陽",
+            "address": "港区新橋6-19-2",
+            "facility_type": "disabled_facility",
+            "category": 3,
+            "postal_code": null,
+            "phone_number": "03-3433-0181",
+            "fax_number": "03-3433-0197",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.66121277361627,139.75355369548424",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:05:40.691"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 32,
+        "fields": {
+            "region": 1,
+            "name": "六本木ヒルサイドホーム",
+            "address": "〒106-0032 港区六本木6-5-25",
+            "facility_type": "disabled_facility",
+            "category": 3,
+            "postal_code": null,
+            "phone_number": "03-6721-1290",
+            "fax_number": "03-6721-1291",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.661302031147734,139.73120210612103",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:05:52.473"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 33,
+        "fields": {
+            "region": 1,
+            "name": "港区立精神障害者支援センター",
+            "address": "港区高輪1-4-8 4階",
+            "facility_type": "disabled_facility",
+            "category": 3,
+            "postal_code": null,
+            "phone_number": "03-5449-6455",
+            "fax_number": "03-5424-1391",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64307742390283,139.73486612770736",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:05:57.147"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 34,
+        "fields": {
+            "region": 1,
+            "name": "クライスハイム高輪",
+            "address": "〒108-0074 港区高輪1-4-8 7階・8階",
+            "facility_type": "disabled_facility",
+            "category": 3,
+            "postal_code": null,
+            "phone_number": "03-6456-2087",
+            "fax_number": "03-6456-2087",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64307742390283,139.73486612770736",
+            "contact": null,
+            "business_description": "",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T13:06:02.950"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 35,
+        "fields": {
+            "region": 1,
+            "name": "芝地区総合支所",
+            "address": "〒105-8511 港区芝公園1-5-25",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-3578-3161",
+            "fax_number": "03-3578-3183",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.658015033255964,139.75165400503835",
+            "contact": "区民課　保健福祉係",
+            "business_description": "区民課 保健福祉係",
+            "contents": "保健福祉係では、身体障害者手帳の申請受付、精神障害者保健福祉手帳 や医療費助成の申請受付、障害のある人に対する各種サービスの案内や受付を行っています。 また、「 身体障害者福祉司」 や 「知的障害者福祉司」および担当の職員が相談に応じます。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T13:49:25.833"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 36,
+        "fields": {
+            "region": 1,
+            "name": "麻布地区総合支所",
+            "address": "〒106-8515 港区六本木5-16-45",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5114-8822",
+            "fax_number": "03-3583-0892",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.66073549078852,139.7350972309947",
+            "contact": "区民課　保健福祉係",
+            "business_description": "区民課 保健福祉係",
+            "contents": "保健福祉係では、身体障害者手帳の申請受付、精神障害者保健福祉手帳 や医療費助成の申請受付、障害のある人に対する各種サービスの案内や受付を行っています。 また、「 身体障害者福祉司」 や 「知的障害者福祉司」および担当の職員が相談に応じます。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T13:50:01.214"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 37,
+        "fields": {
+            "region": 1,
+            "name": "赤坂地区総合支所",
+            "address": "〒107-8516<br>港区赤坂4-18-13",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5413-7276",
+            "fax_number": "03-3402-8192",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.67473131208816,139.73176914206738",
+            "contact": "区民課　保健福祉係",
+            "business_description": "区民課 保健福祉係",
+            "contents": "保健福祉係では、身体障害者手帳の申請受付、精神障害者保健福祉手帳 や医療費助成の申請受付、障害のある人に対する各種サービスの案内や受付を行っています。 また、「 身体障害者福祉司」 や 「知的障害者福祉司」および担当の職員が相談に応じます。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T13:49:52.363"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 38,
+        "fields": {
+            "region": 1,
+            "name": "高輪地区総合支所",
+            "address": "〒108-8581 港区高輪1-16-25",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5421-7085",
+            "fax_number": "03-5421-7613",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.641822834835,139.73446791808385",
+            "contact": "区民課　保健福祉係",
+            "business_description": "区民課 保健福祉係",
+            "contents": "保健福祉係では、身体障害者手帳の申請受付、精神障害者保健福祉手帳 や医療費助成の申請受付、障害のある人に対する各種サービスの案内や受付を行っています。 また、「 身体障害者福祉司」 や 「知的障害者福祉司」および担当の職員が相談に応じます。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T13:49:44.015"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 39,
+        "fields": {
+            "region": 1,
+            "name": "芝浦港南地区総合支所",
+            "address": "〒105-8516 港区芝浦1-16-1",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-6400-0022",
+            "fax_number": "03-5445-4590",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64677121742817,139.75169023648192",
+            "contact": "区民課　保健福祉係",
+            "business_description": "区民課 保健福祉係",
+            "contents": "保健福祉係では、身体障害者手帳の申請受付、精神障害者保健福祉手帳 や医療費助成の申請受付、障害のある人に対する各種サービスの案内や受付を行っています。 また、「 身体障害者福祉司」 や 「知的障害者福祉司」および担当の職員が相談に応じます。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T13:49:35.162"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 40,
+        "fields": {
+            "region": 1,
+            "name": "みなと保健所",
+            "address": "〒108-8315 港区三田1-4-10",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-6400-0084",
+            "fax_number": "03-3455-4460",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65401335114088,139.74307106894923",
+            "contact": "健康推進課　地域保健係",
+            "business_description": "健康推進課 地域保健係",
+            "contents": "乳幼児の発達の遅れ、しつけ上の問題、情緒不安等の療育上の問題に医師・保健師・栄養士等が相談に応じています。精神障害者やこころの病気を持つ人の相談や支援も行っています。\r\n＜主な業務＞こころの健康相談、自立支援医療（育成医療）、小児慢性疾患の医療費助成、港区口腔保健センター（障害者歯科診療所）、障害者等かかりつけ歯科医の案内、デイケア（精神障害者社会復帰援助事業）",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T13:50:35.431"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 41,
+        "fields": {
+            "region": 1,
+            "name": "障害者総合相談支援センター",
+            "address": "〒105-8511 港区芝公園1-5-25",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-3578-2826",
+            "fax_number": "03-3578-2678",
+            "google_map": null,
+            "contact": "障害者福祉課　障害者支援係",
+            "business_description": "（障害者福祉課内）",
+            "contents": "障害者福祉課に設置し、地域の相談拠点（相談支援事業所）や各総合支所と連携を図り、中核的な役割を担います。区のサービスに関係すること以外でも、困っていることや悩んでいること等、お気軽にご相談ください。\r\n＜主な業務＞（１） 相談支援事業所に対し、相談のアドバイスやサービス等利用計画作成のための助言等を行います。（２） 障害者本人と障害者の家族（保護者等）の方の生活状況を伺い、将来を想定した生活プランを一緒に考え、福祉サービスの体験利用などを勧めていきます。（３） 複雑な相談事例については、専門家の意見等を参考にしながら相談支援事業所のサポートを行い、課題の解決に取り組みます。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-09T12:22:21.318"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 42,
+        "fields": {
+            "region": 1,
+            "name": "地域の相談拠点",
+            "address": "",
+            "facility_type": "consultation_service",
+            "category": null,
+            "postal_code": "",
+            "phone_number": "",
+            "fax_number": "",
+            "google_map": "",
+            "contact": "",
+            "business_description": "",
+            "contents": "障害者本人・家族等から生活全般にわたる相談を受付つけます。相談の内容からニーズを整理し、必要な障害福祉サービスにつなぎます。サービス等利用計画の作成が必要な場合は、計画を作成し、サービスの利用調整等の支援を行います。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": null
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 43,
+        "fields": {
+            "region": 1,
+            "name": "障害保健福祉センター（ヒューマンぷらざ）",
+            "address": "〒105-0014 芝1-8-23",
+            "facility_type": "consultation_service",
+            "category": 4,
+            "postal_code": null,
+            "phone_number": "03-5439-8053",
+            "fax_number": "03-5439-2514",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65161268007647,139.75569549860603",
+            "contact": "(月)～(土) ※祝日除く、午前9時～午後6時",
+            "business_description": "＜障害者・児全般の支援＞",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T11:26:10.106"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 44,
+        "fields": {
+            "region": 1,
+            "name": "新橋はつらつ太陽",
+            "address": "〒105-0004 新橋6-19-2",
+            "facility_type": "consultation_service",
+            "category": 4,
+            "postal_code": null,
+            "phone_number": "03-3433-0181",
+            "fax_number": "03-3433-0197",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.661215993332306,139.7535812585658",
+            "contact": "(月)～(金)※祝日除く、午前9時～午後5時",
+            "business_description": "＜主に知的障害者の入所・通所の利用者支援＞",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T11:24:45.269"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 45,
+        "fields": {
+            "region": 1,
+            "name": "精神障害者支援センター（あいはーと・みなと）",
+            "address": "〒108-0074 高輪1-4-8",
+            "facility_type": "consultation_service",
+            "category": 4,
+            "postal_code": null,
+            "phone_number": "03-5449-6457",
+            "fax_number": "03-5424-1391",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64306411441577,139.73485816612697",
+            "contact": "(月)～(金)午前9時～午後8時、(土日)午前9時～午後5時",
+            "business_description": "＜主に精神障害者の支援＞",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-08T11:25:43.413"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 46,
+        "fields": {
+            "region": 1,
+            "name": "障害者支援ホーム南麻布",
+            "address": "〒106-0047 南麻布4-6-13",
+            "facility_type": "consultation_service",
+            "category": 4,
+            "postal_code": null,
+            "phone_number": "03-6455-7827",
+            "fax_number": "03-6455-7874",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.650605562704676,139.72726336127658",
+            "contact": "(月)～(土)※祝日を除く、午前9時～午後6時",
+            "business_description": "＜主に身体障害者の入所施設＞",
+            "contents": "",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-05T10:29:58.767"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 47,
+        "fields": {
+            "region": 1,
+            "name": "障害保健福祉センタ－（ヒューマンぷらざ）",
+            "address": "〒105-0014 港区芝1-8-23",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5439-2511",
+            "fax_number": "03-5439-2514",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65161268007647,139.75569549860603",
+            "contact": null,
+            "business_description": "",
+            "contents": "区内の障害者に対して、障害の種類や程度、年齢に応じた各種相談・通所指導・機能訓練等の事業を行っています。そして、社会参加の機会や交流の場を提供し、障害者の自主的な活動を支援することを目的とした施設です。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:28:19.996"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 48,
+        "fields": {
+            "region": 1,
+            "name": "発達障害者支援室",
+            "address": "〒105-0014 港区芝1-8-23（障害保健福祉センター3階）",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5439-8077",
+            "fax_number": null,
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65161268007647,139.75569549860603",
+            "contact": null,
+            "business_description": "",
+            "contents": "18歳以上の発達障害について相談できる窓口です。まずは、お電話にてご予約ください。（１）一般相談　18歳以上の発達障害等の悩みについて、相談員がお話をうかがいます。その後、適切な機関を紹介したり、専門相談を紹介する等のコーディネートを行います。（２）専門相談　一般相談の上、必要な人には、専門職（精神科医師、臨床心理士等）による相談を行います。（３）居場所支援　自分らしく過ごせる居場所を提供します。利用には事前に申し込みが必要です。（※対象）区内在住の発達障害について気になることがある18歳以上の人およびその家族",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:28:14.722"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 49,
+        "fields": {
+            "region": 1,
+            "name": "精神障害者支援センター（あいはーと・みなと）",
+            "address": "〒108-0074 港区高輪1-4-8",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5449-6455",
+            "fax_number": "03-5424-1391",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.64306411441577,139.73485816612697",
+            "contact": null,
+            "business_description": "",
+            "contents": "主に精神に障害がある人に対し、地域生活支援事業、各種相談、就労継続支援事業、短期入所、生活体験プログラム事業を行っています。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:28:09.533"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 50,
+        "fields": {
+            "region": 1,
+            "name": "児童発達支援センター（ぱお）",
+            "address": "〒106-0047 港区南麻布4-6-13",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-6277-3106",
+            "fax_number": "03-6277-3844",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.65085048296318,139.7278655306691",
+            "contact": null,
+            "business_description": "",
+            "contents": "子どもの成長や発達についての総合的な相談窓口です。また、通所支援を実施しています。（１）児童発達支援（就学前の児童）１日定員　82人（２）放課後等デイサービス（就学後の児童）１日定員 10人",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:28:04.249"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 51,
+        "fields": {
+            "region": 1,
+            "name": "障害者支援ホーム南麻布（ホーム南部坂ありす）",
+            "address": "〒106-0047 港区南麻布4-6-13",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-6455-7797",
+            "fax_number": "03-6455-7798",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.650623812603925,139.72726203368035",
+            "contact": null,
+            "business_description": "",
+            "contents": "区立の身体障害者の入所施設です。また短期入所や相談支援を実施しています。（１）施設入所支援及び生活介護 40人（２）短期入所 ４人 （３）相談支援 原則、月曜から土曜、午前９時から午後６時まで",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:27:58.389"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 52,
+        "fields": {
+            "region": 1,
+            "name": "障害者虐待防止センター",
+            "address": null,
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-3578-2673",
+            "fax_number": null,
+            "google_map": null,
+            "contact": null,
+            "business_description": "",
+            "contents": "港区では、障害者虐待や権利の侵害防止に努めています。虐待の早期発見・早期対応のために、障害者虐待防止センターに専用相談ダイヤルを設置しています。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:27:52.733"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 53,
+        "fields": {
+            "region": 1,
+            "name": "港区児童相談所",
+            "address": "〒107-0062 港区南青山5-7-11（港区子ども家庭総合支援センタ-内）",
+            "facility_type": "consultation_service",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "03-5962-6500",
+            "fax_number": "03-5962-6509",
+            "google_map": "https://www.google.com/maps/search/?api=1&query=35.66261010476677,139.71330320280927",
+            "contact": null,
+            "business_description": "",
+            "contents": "児童福祉司・児童心理司等が妊娠期から児童の自立までの様々な相談を受けています。愛の手帳の相談や判定、里親の認定、児童福祉施設への入所措置等も行っています。土曜・日曜・祝日・12/29～1/3を除く午前8時30分から午後6時まで開所しています。\r\n※港区児童虐待相談ダイヤル（24時間対応）、0120-483-710(フリーダイヤル)もご利用いただけます。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2021-09-09T12:34:56.789",
+            "updated_at": "2021-11-02T14:27:46.748"
+        }
+    },
+    {
+        "model": "app.facility",
+        "pk": 55,
+        "fields": {
+            "region": 3,
+            "name": "茅ヶ崎障害者施設A",
+            "address": "茅ヶ崎市",
+            "facility_type": "disabled_facility",
+            "category": 5,
+            "postal_code": null,
+            "phone_number": "1234311",
+            "fax_number": "123123",
+            "google_map": null,
+            "contact": null,
+            "business_description": "",
+            "contents": "茅ヶ崎障害者施設Aです。",
+            "target": "",
+            "capacity": null,
+            "created_at": "2022-08-12T21:17:00.750",
+            "updated_at": "2022-08-12T21:21:28.427"
+        }
+    },
+    {
+        "model": "app.firebasetoken",
+        "pk": 1,
+        "fields": {
+            "region": 1,
+            "token": "cfv1xun-fkFJpYTWRaYOVi:APA91bGLfDQ-E69I7S_MUfYjdf90HQsUDqHm32hqhdhsPZNAEXiGDERqs0Uzr6fT_UC0_wvvDyGzB2Wdh5Yu-vJIZg3xKaRQ_NIy8MGYuL6Z3jHiGvL0B-jVmrx38L78uRbco4mRjwlb",
+            "created_at": "2021-11-10T15:59:17.812"
+        }
+    },
+    {
+        "model": "app.firebasetoken",
+        "pk": 2,
+        "fields": {
+            "region": 1,
+            "token": "eqDFnr1NSL6lDATe2OZYdY:APA91bHIe_UQcjsYacJAzue6DuopWRf7ob_YHlW8vkzQBblxh71EnzxwkzxIN-tlpY1T00XHKvOR_-UhlIFczK7_HvFtHObqckZUeJ0kucpU7FkgNgs44SgE9MNFbUJn-KtdoDlBAGgX",
+            "created_at": "2022-01-03T01:40:05.834"
+        }
+    },
+    {
+        "model": "app.firebasetoken",
+        "pk": 3,
+        "fields": {
+            "region": 1,
+            "token": "eY49DoIKkExDoFoyicpf_q:APA91bHODGEncsx2I0OF15N6ElyywkWZ-eldZY4nHVfRPgo8SRBDKdh3yCHDnx4P3K_FERfJ7BdH4krH7WeEjYToVl_pTR8bJMVqBHcVIKDUkcXQuAh7kSM6zAaNm7He9jMgKmT0xfxk",
+            "created_at": "2022-02-21T12:52:32.491"
+        }
+    },
+    {
+        "model": "app.firebasetoken",
+        "pk": 4,
+        "fields": {
+            "region": 1,
+            "token": "cdvXZ7OH10pvhusXs4o8XT:APA91bEOFJoSxgJB9ZEFM0HRIaifC4zFC-POOFm5dG1_F6yL2lxjilGGserJE4BlKohYdc__fIX9JGVls07Yf9Am-JdPMRWBr-MATXQ4Kww1c4ExivDBNu89zJWmQ167tZorZSuoGSVV",
+            "created_at": "2022-03-01T10:39:50.132"
+        }
+    },
+    {
+        "model": "app.faq",
+        "pk": 1,
+        "fields": {
+            "region": 1,
+            "question": "このアプリは無料ですか？",
+            "answer": "はい、無料でご利用できます。ただし、アプリ利用に伴う通信費、パケット代はご自身の負担となります。"
+        }
+    },
+    {
+        "model": "app.faq",
+        "pk": 2,
+        "fields": {
+            "region": 1,
+            "question": "会員登録しないと使えませんか？",
+            "answer": "いえ、会員登録をしなくても、ご利用できます。"
+        }
+    },
+    {
+        "model": "app.faq",
+        "pk": 3,
+        "fields": {
+            "region": 1,
+            "question": "会員登録すると、どんなメリットがありますか？",
+            "answer": "港区からのお知らせがあった場合、メールでお知らせを受け取ることができます。また、会員登録をすることで、短期入所施設の予約が可能です。"
+        }
+    },
+    {
+        "model": "app.faq",
+        "pk": 4,
+        "fields": {
+            "region": 1,
+            "question": "紹介されている施設について詳しく知りたい",
+            "answer": "電話番号が記載されている施設については、直接ご連絡をお願いいたします。"
+        }
+    },
+    {
+        "model": "app.faq",
+        "pk": 5,
+        "fields": {
+            "region": 1,
+            "question": "短期入所の予約ができない",
+            "answer": "会員登録はお済みでしょうか？まだ登録がお済みでない場合、会員登録をし、本アプリにログインをすることで、短期入所の予約ができるようになります。"
+        }
+    },
+    {
+        "model": "app.faq",
+        "pk": 6,
+        "fields": {
+            "region": 1,
+            "question": "退会処理",
+            "answer": "あああ\r\n\r\nhttp://localhost:3000/account/profile/?citycode=131032\r\n\r\n\r\n１１２"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "0b212ed2-8894-4317-810c-518cc85e6d2c",
+        "fields": {
+            "created_at": "2022-04-01T08:22:29.666",
+            "display_name": "AAA",
+            "region": 1,
+            "message_type": "reply",
+            "category": "notification",
+            "contents": "AAAA",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "updated_at": "2022-08-16T21:20:01.304"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "272674f5-8d6b-4a28-8a64-cf24b890eaf6",
+        "fields": {
+            "created_at": "2022-08-12T16:43:39.318",
+            "display_name": "ka-suzuki+gen1@mi-labo.co.jp",
+            "region": 3,
+            "message_type": "inquiry",
+            "category": "app",
+            "contents": "Test",
+            "status": "completed",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "updated_at": "2022-08-16T21:20:03.630"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "3bb0cd3a-85e3-4c47-9505-b76e87ea7866",
+        "fields": {
+            "created_at": "2021-11-08T15:02:11.394",
+            "display_name": "a",
+            "region": 1,
+            "message_type": "reply",
+            "category": "app",
+            "contents": "a",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "updated_at": "2022-08-16T21:20:05.808"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "404a3906-5845-43dc-906c-9581a557b71c",
+        "fields": {
+            "created_at": "2022-08-16T21:44:57.140",
+            "display_name": "ka-suzuki+gen1@mi-labo.co.jp",
+            "region": 1,
+            "message_type": "inquiry",
+            "category": "notification",
+            "contents": "なおった",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "updated_at": "2022-08-16T21:44:57.140"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "52f46e58-f2af-42e8-b2d3-9551535c3f87",
+        "fields": {
+            "created_at": "2021-10-29T10:20:38.013",
+            "display_name": "ka-suzuki+gen1@mi-labo.co.jp",
+            "region": 1,
+            "message_type": "inquiry",
+            "category": "registration",
+            "contents": "会員登録ができません。",
+            "status": "inspecting",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "updated_at": "2022-08-16T21:19:59.081"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "5b51d73f-2130-4258-8a5c-c98537af4dbf",
+        "fields": {
+            "created_at": "2022-04-01T09:20:29.802",
+            "display_name": "EEE",
+            "region": 1,
+            "message_type": "reply",
+            "category": "app",
+            "contents": "EEE",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "updated_at": "2022-04-01T09:20:29.802"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "676febdb-1969-430d-b61a-8fb7829088c8",
+        "fields": {
+            "created_at": "2022-08-12T17:21:34.551",
+            "display_name": "ka-suzuki+gen1@mi-labo.co.jp",
+            "region": 3,
+            "message_type": "inquiry",
+            "category": "notification",
+            "contents": "test",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "updated_at": "2022-08-16T21:19:56.409"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "692f6dcf-de43-4e6e-ba94-4de04a065fa7",
+        "fields": {
+            "created_at": "2021-11-08T15:03:46.699",
+            "display_name": "s",
+            "region": 1,
+            "message_type": "reply",
+            "category": "app",
+            "contents": "s",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "updated_at": "2022-08-16T21:19:53.567"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "a78039f9-3d1c-4a93-8036-68145ae1fa16",
+        "fields": {
+            "created_at": "2022-08-12T17:20:29.773",
+            "display_name": "茅ヶ崎",
+            "region": 3,
+            "message_type": "reply",
+            "category": "notification",
+            "contents": "test",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "updated_at": "2022-08-16T21:19:50.940"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "e69781d2-30a5-49df-8e79-3055388adac5",
+        "fields": {
+            "created_at": "2021-10-29T10:21:57.558",
+            "display_name": "港区",
+            "region": 1,
+            "message_type": "reply",
+            "category": "registration",
+            "contents": "こちら側で登録しました。",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "updated_at": "2022-08-16T21:19:46.887"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "e6c2c11a-16e7-4dee-9df6-f3f7ad97e8e1",
+        "fields": {
+            "created_at": "2022-08-16T21:24:07.863",
+            "display_name": "データ壊れた",
+            "region": 1,
+            "message_type": "reply",
+            "category": "notification",
+            "contents": "データ壊れた",
+            "status": "pending",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "70090bca-f105-4f4d-b2fe-64f07ea853b0",
+            "updated_at": "2022-08-16T21:24:07.864"
+        }
+    },
+    {
+        "model": "app.inquiry",
+        "pk": "fd6fb2d8-9f3a-481d-83cc-5eaa5f0b88ab",
+        "fields": {
+            "created_at": "2021-10-26T11:34:23.189",
+            "display_name": "ka-suzuki+gen1@mi-labo.co.jp",
+            "region": 1,
+            "message_type": "inquiry",
+            "category": "mirairo",
+            "contents": "ミライロIDを忘れてしまいました。",
+            "status": "inspecting",
+            "created_to": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "created_by": "b5622d0d-8a94-410a-9c9d-990fb8044d16",
+            "updated_at": "2022-08-16T21:19:24.992"
+        }
+    }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "name": "${name}",
+    "image": "${ecr_endpoint}",
+    "command": ["gunicorn", "config.wsgi", "-b", "0.0.0.0:80", "-w", "3", "--threads", "1", "--log-level=info", "--max-requests", "500", "--max-requests-jitter", "200"],
+    "cpu": 1024,
+    "memory": 2048,
+    "portMappings": [
+      {
+        "containerPort": 80
+      }
+    ],
+    "environment": [
+      {
+        "name": "DEBUG",
+        "value": "${debug}"
+      },
+      {
+        "name": "SECRET_KEY",
+        "value": "${secret_key}"
+      },
+      {
+        "name": "LANGUAGE_CODE",
+        "value": "ja-jp"
+      },
+      {
+        "name": "TIME_ZONE",
+        "value": "Asia/Tokyo"
+      },
+      {
+        "name": "ALLOWED_HOSTS",
+        "value": "*"
+      },
+      {
+        "name": "DATABASE_URL",
+        "value": "${database_url}"
+      },
+      {
+        "name": "GUNICORN_WORKER_NUMBER",
+        "value": "${worker_num}"
+      },
+      {
+        "name": "GUNICORN_THREAD_NUMBER",
+        "value": "${thread_num}"
+      },
+      {
+        "name": "AWS_REGION_NAME",
+        "value": "${aws_region_name}"
+      },
+      {
+        "name": "AWS_BUCKET_NAME",
+        "value": "${aws_bucket_name}"
+      },
+      {
+        "name": "EMAIL_SENDER",
+        "value": "${email_sender}"
+      },
+      {
+        "name": "EMAIL_CONFIRMATION_TTL_IN_DAY",
+        "value": "${email_confirmation_ttl_in_days}"
+      },
+      {
+        "name": "AWS_SES_CONFIGURATION_SET_NAME",
+        "value": "${aws_ses_configuration_set_name}"
+      },
+      {
+        "name": "TMP_DIR",
+        "value": "${tmp_dir}"
+      },
+      {
+        "name": "BASE_URL",
+        "value": "${base_url}"
+      },
+      {
+        "name": "BACKEND_URL",
+        "value": "${backend_url}"
+      }
+    ],
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "/ecs/${name}",
+        "awslogs-region": "${region}",
+        "awslogs-stream-prefix": "ecs"
+      }
+    }
+  }
+]

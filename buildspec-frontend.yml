@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - "VERSION=$(echo ${CODEBUILD_RESOLVED_SOURCE_VERSION} | head -c 7)"
+      - "echo VERSION=${VERSION}"
+  build:
+    commands:
+      - "echo building frontend...."
+      - "cd client"
+      - "touch .env"
+      - "echo SURVEY_URL=${SURVEY_URL} > .env"
+      - "echo CONGESTION_URL=${CONGESTION_URL} >> .env"
+      - "echo BOOKLET_URL=${BOOKLET_URL} >> .env"
+      - "echo BARRIER_FREE_MAP_URL=${BARRIER_FREE_MAP_URL} >> .env"
+      - "echo PUBLIC_GTAG_ID=${PUBLIC_GTAG_ID} >> .env"
+      - "npm install"
+      - "npm run build && npm run generate"
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - '**/*'
+  base-directory: client/dist

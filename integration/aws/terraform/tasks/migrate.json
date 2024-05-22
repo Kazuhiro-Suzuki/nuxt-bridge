@@ -1,0 +1,25 @@
+[
+  {
+    "name": "${name}",
+    "image": "${ecr_endpoint}",
+    "command": [
+      "python",
+      "manage.py",
+      "migrate"
+    ],
+    "environment": [
+      {
+        "name": "DATABASE_URL",
+        "value": "${database_url}"
+      }
+    ],
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "/ecs/${name}",
+        "awslogs-region": "${region}",
+        "awslogs-stream-prefix": "ecs"
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+<!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40"><defs><clipPath id="a"><rect width="30" height="30" fill="none"/></clipPath></defs><rect width="40" height="40" fill="none"/><g transform="translate(5 4.892)"><g transform="translate(0 0.108)" clip-path="url(#a)"><path d="M22.065,0H11.519A4.525,4.525,0,0,0,7,4.519v7.532a4.525,4.525,0,0,0,4.519,4.519h8.415l4.078,4.078a1.506,1.506,0,0,0,2.572-1.065V4.519A4.525,4.525,0,0,0,22.065,0" transform="translate(3.545 -0.129)" fill="currentColor"/><path d="M16.571,4H4.519A4.525,4.525,0,0,0,0,8.519V26.6a1.506,1.506,0,0,0,2.572,1.065L6.65,23.584h9.922a4.525,4.525,0,0,0,4.519-4.519V8.519A4.525,4.525,0,0,0,16.571,4" transform="translate(0 1.896)" fill="currentColor"/><path d="M13.545,11.013H4.506A1.506,1.506,0,1,1,4.506,8h9.039a1.506,1.506,0,0,1,0,3.013" transform="translate(1.519 3.922)" fill="currentColor"/><path d="M13.545,14.013H4.506a1.506,1.506,0,0,1,0-3.013h9.039a1.506,1.506,0,0,1,0,3.013" transform="translate(1.519 5.442)" fill="currentColor"/></g></g></svg> -->
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40"><defs><clipPath id="a"><rect width="30" height="30" fill="none"/></clipPath></defs><rect width="40" height="40" fill="none"/><g transform="translate(5 4.892)"><g transform="translate(0 0.108)" clip-path="url(#a)"><path d="M22.065,0H11.519A4.525,4.525,0,0,0,7,4.519v7.532a4.525,4.525,0,0,0,4.519,4.519h8.415l4.078,4.078a1.506,1.506,0,0,0,2.572-1.065V4.519A4.525,4.525,0,0,0,22.065,0" transform="translate(3.545 -0.129)" fill="#ccebff"/><path d="M16.571,4H4.519A4.525,4.525,0,0,0,0,8.519V26.6a1.506,1.506,0,0,0,2.572,1.065L6.65,23.584h9.922a4.525,4.525,0,0,0,4.519-4.519V8.519A4.525,4.525,0,0,0,16.571,4" transform="translate(0 1.896)" fill="#2f66d0"/><path d="M13.545,11.013H4.506A1.506,1.506,0,1,1,4.506,8h9.039a1.506,1.506,0,0,1,0,3.013" transform="translate(1.519 3.922)" fill="#ccebff"/><path d="M13.545,14.013H4.506a1.506,1.506,0,0,1,0-3.013h9.039a1.506,1.506,0,0,1,0,3.013" transform="translate(1.519 5.442)" fill="#ccebff"/></g></g></svg> -->
+
+
+<svg id="icon_consultation_2t" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_15" data-name="長方形 15" width="30" height="30" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_159" data-name="グループ 159" transform="translate(5 4.892)">
+    <g id="グループ_22" data-name="グループ 22" transform="translate(0 0.108)" clip-path="url(#clip-path)">
+      <path id="パス_28" data-name="パス 28" d="M22.065,0H11.519A4.525,4.525,0,0,0,7,4.519v7.532a4.525,4.525,0,0,0,4.519,4.519h8.415l4.078,4.078a1.506,1.506,0,0,0,2.572-1.065V4.519A4.525,4.525,0,0,0,22.065,0" transform="translate(3.545 -0.129)" fill="#ccebff"/>
+      <path id="パス_29" data-name="パス 29" d="M16.571,4H4.519A4.525,4.525,0,0,0,0,8.519V26.6a1.506,1.506,0,0,0,2.572,1.065L6.65,23.584h9.922a4.525,4.525,0,0,0,4.519-4.519V8.519A4.525,4.525,0,0,0,16.571,4" transform="translate(0 1.896)" fill="#2f66d0"/>
+      <path id="パス_30" data-name="パス 30" d="M13.545,11.013H4.506A1.506,1.506,0,1,1,4.506,8h9.039a1.506,1.506,0,0,1,0,3.013" transform="translate(1.519 3.922)" fill="#ccebff"/>
+      <path id="パス_31" data-name="パス 31" d="M13.545,14.013H4.506a1.506,1.506,0,0,1,0-3.013h9.039a1.506,1.506,0,0,1,0,3.013" transform="translate(1.519 5.442)" fill="#ccebff"/>
+    </g>
+  </g>
+  <rect id="長方形_69" data-name="長方形 69" width="40" height="40" fill="none"/>
+</svg>

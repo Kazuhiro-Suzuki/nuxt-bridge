@@ -1,0 +1,10 @@
+.idea/
+db.sqlite3
+*.pyc
+**/migrations/local/*
+backend/config/static/
+.env
+myshell/
+test_data.json
+.coverage
+local-db/
