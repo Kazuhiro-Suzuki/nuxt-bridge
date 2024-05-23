@@ -1,6 +1,9 @@
 import colors from 'vuetify/es5/util/colors'
+import { defineNuxtConfig } from '@nuxt/bridge'
 
-export default {
+export default defineNuxtConfig({
+  bridge: false,
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -134,4 +137,4 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
-}
+})
