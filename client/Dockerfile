@@ -6,6 +6,11 @@ WORKDIR /src
 RUN apk update && \
     apk upgrade && \
     apk add curl python3 make g++
+
+COPY . .
+
+RUN rm -rf node_modules package-lock.json
+
 RUN yarn install
 
 ENV TZ Asia/Tokyo

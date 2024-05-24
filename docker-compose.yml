@@ -11,7 +11,8 @@ services:
     restart: always
     tty: true
     volumes:
-      - ./client:/src
+      - ./client:/src:delegated
+      - /src/node_modules
     ports:
       - 3000:3000
     networks:
