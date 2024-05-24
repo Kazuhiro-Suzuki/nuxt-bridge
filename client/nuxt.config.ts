@@ -1,8 +1,15 @@
 import colors from 'vuetify/es5/util/colors'
 import { defineNuxtConfig } from '@nuxt/bridge'
+import { type Configuration } from 'webpack'
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 export default defineNuxtConfig({
-  bridge: false,
+  bridge: {
+    capi: true,
+    typescript: true,
+    nitro: false // If migration to Nitro is complete, set to true
+  },
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -53,7 +60,6 @@ export default defineNuxtConfig({
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
     '@nuxtjs/device',
     '@nuxtjs/svg',
@@ -136,5 +142,16 @@ export default defineNuxtConfig({
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+    extend(config: Configuration) {
+      config.module?.rules.push({
+        test: /\.[cm]?js$/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      })
+    },
+  },
 })
