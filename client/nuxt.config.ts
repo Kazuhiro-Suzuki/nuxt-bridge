@@ -6,6 +6,9 @@ dotenv.config()
 
 export default defineNuxtConfig({
   bridge: {
+    macros: {
+      pageMeta: true
+    },
     capi: true,
     typescript: true,
     nitro: false // If migration to Nitro is complete, set to true
@@ -139,7 +142,6 @@ export default defineNuxtConfig({
       }
     }
   },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend(config: Configuration) {
